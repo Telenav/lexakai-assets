@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2144.7917px" preserveAspectRatio="none" style="width:1403px;height:2144px;background:#333333;" version="1.1" viewBox="0 0 1403 2144" width="1403.125px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="220.8333" x="584.1146" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="197.9167" x="595.5729" y="30.5583">com.telenav.lexakai</text><!--MD5=[762aa3d0df6a9d47bd8e105afbd066b5]
+class BaseRepeater--><rect codeLine="6" fill="#282828" height="48.055" id="BaseRepeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="226.5625" y="95.3695"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="226.5625" y="95.3695"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="226.5625" y="118.4245"/><rect codeLine="6" fill="none" height="48.055" id="BaseRepeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="226.5625" y="95.3695"/><ellipse cx="241.1458" cy="111.0636" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M241.2598,107.7657 L240.4114,111.495 L242.1143,111.495 Z M240.1611,106.1178 L242.3645,106.1178 L244.8242,115.2303 L243.0237,115.2303 L242.4622,112.9781 L240.0513,112.9781 L239.502,115.2303 L237.7014,115.2303 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="86.4583" x="257.8125" y="115.7878">BaseRepeater</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="227.6042" x2="349.4792" y1="126.7578" y2="126.7578"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="227.6042" x2="349.4792" y1="135.0911" y2="135.0911"/><!--MD5=[d366ac531d94add6ab38903d6804b189]
+class BaseLexakaiDiagram--><rect codeLine="13" fill="#282828" height="87.5448" id="BaseLexakaiDiagram" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="229.1667" x="9.375" y="824.5361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="229.1667" x="9.375" y="824.5361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="229.1667" x="9.375" y="847.5911"/><rect codeLine="13" fill="none" height="87.5448" id="BaseLexakaiDiagram" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="229.1667" x="9.375" y="824.5361"/><ellipse cx="49.7396" cy="840.2303" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M49.8535,836.9324 L49.0051,840.6616 L50.708,840.6616 Z M48.7549,835.2844 L50.9583,835.2844 L53.418,844.397 L51.6174,844.397 L51.0559,842.1448 L48.645,842.1448 L48.0957,844.397 L46.2952,844.397 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="134.375" x="72.1354" y="844.9544">BaseLexakaiDiagram</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="10.4167" x2="237.5" y1="855.9245" y2="855.9245"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="237.5" y1="864.2578" y2="864.2578"/><ellipse cx="20.8333" cy="875.7161" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="32.2917" y="882.6274">String uml(String title)</text><polygon fill="#FFFF44" points="20.8333,890.2527,25,894.4194,20.8333,898.586,16.6667,894.4194" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="196.875" x="32.2917" y="902.3722">void onUml(IndentingStringBuilder)</text><!--MD5=[7c5c88a606935469d5f89b0b5794816c]
+class Named--><rect codeLine="9" fill="#282828" height="48.055" id="Named" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="82.2917" x="844.2708" y="844.3278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="82.2917" x="844.2708" y="844.3278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="82.2917" x="844.2708" y="867.3828"/><rect codeLine="9" fill="none" height="48.055" id="Named" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="82.2917" x="844.2708" y="844.3278"/><ellipse cx="858.8542" cy="860.022" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M855.7373,857.1838 L855.7373,855.5969 L861.1633,855.5969 L861.1633,857.1838 L859.3506,857.1838 L859.3506,863.1226 L861.1633,863.1226 L861.1633,864.7095 L855.7373,864.7095 L855.7373,863.1226 L857.55,863.1226 L857.55,857.1838 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="44.7917" x="875.5208" y="864.7461">Named</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="845.3125" x2="925.5208" y1="875.7161" y2="875.7161"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="845.3125" x2="925.5208" y1="884.0495" y2="884.0495"/><!--MD5=[7a4729d26b999f6a4650b01106c103c5]
+class Comparable--><rect codeLine="10" fill="#282828" height="48.055" id="Comparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="115.625" x="442.1875" y="95.3695"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="115.625" x="442.1875" y="95.3695"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="115.625" x="442.1875" y="118.4245"/><rect codeLine="10" fill="none" height="48.055" id="Comparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="115.625" x="442.1875" y="95.3695"/><ellipse cx="456.7708" cy="111.0636" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M453.654,108.2255 L453.654,106.6386 L459.08,106.6386 L459.08,108.2255 L457.2673,108.2255 L457.2673,114.1642 L459.08,114.1642 L459.08,115.7511 L453.654,115.7511 L453.654,114.1642 L455.4667,114.1642 L455.4667,108.2255 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="78.125" x="473.4375" y="115.7878">Comparable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="443.2292" x2="556.7708" y1="126.7578" y2="126.7578"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="443.2292" x2="556.7708" y1="135.0911" y2="135.0911"/><!--MD5=[0b4e4b4980470ea387cc45de9bd14b5b]
+class Application--><rect fill="#282828" height="48.055" id="Application" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="111.4583" x="1014.0625" y="95.3695"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="111.4583" x="1014.0625" y="95.3695"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="111.4583" x="1014.0625" y="118.4245"/><rect fill="none" height="48.055" id="Application" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="111.4583" x="1014.0625" y="95.3695"/><ellipse cx="1028.6458" cy="111.0636" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1030.5562,115.4887 Q1030.129,115.7084 1029.659,115.8183 Q1029.189,115.9281 1028.6702,115.9281 Q1026.827,115.9281 1025.8565,114.7135 Q1024.8861,113.4989 1024.8861,111.204 Q1024.8861,108.903 1025.8565,107.6884 Q1026.827,106.4738 1028.6702,106.4738 Q1029.189,106.4738 1029.6651,106.5837 Q1030.1412,106.6935 1030.5562,106.9132 L1030.5562,108.9152 Q1030.0924,108.488 1029.656,108.2896 Q1029.2196,108.0912 1028.7557,108.0912 Q1027.7669,108.0912 1027.2634,108.8755 Q1026.7598,109.6598 1026.7598,111.204 Q1026.7598,112.7421 1027.2634,113.5264 Q1027.7669,114.3107 1028.7557,114.3107 Q1029.2196,114.3107 1029.656,114.1123 Q1030.0924,113.914 1030.5562,113.4867 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="73.9583" x="1045.3125" y="115.7878">Application</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1015.1042" x2="1124.4792" y1="126.7578" y2="126.7578"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1015.1042" x2="1124.4792" y1="135.0911" y2="135.0911"/><!--MD5=[71ba3f8efe45f4767ee229c95530b131]
+class Lexakai--><rect codeLine="21" fill="#282828" height="194.6025" id="Lexakai" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="212.5" x="963.5417" y="770.8903"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="212.5" x="963.5417" y="770.8903"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="212.5" x="963.5417" y="793.9453"/><rect codeLine="21" fill="none" height="194.6025" id="Lexakai" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="212.5" x="963.5417" y="770.8903"/><ellipse cx="1038.0208" cy="786.5845" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1039.9312,791.0095 Q1039.504,791.2292 1039.034,791.3391 Q1038.564,791.449 1038.0452,791.449 Q1036.202,791.449 1035.2315,790.2344 Q1034.2611,789.0198 1034.2611,786.7249 Q1034.2611,784.4238 1035.2315,783.2092 Q1036.202,781.9946 1038.0452,781.9946 Q1038.564,781.9946 1039.0401,782.1045 Q1039.5162,782.2144 1039.9312,782.4341 L1039.9312,784.436 Q1039.4674,784.0088 1039.031,783.8104 Q1038.5946,783.6121 1038.1307,783.6121 Q1037.1419,783.6121 1036.6384,784.3964 Q1036.1348,785.1807 1036.1348,786.7249 Q1036.1348,788.2629 1036.6384,789.0472 Q1037.1419,789.8315 1038.1307,789.8315 Q1038.5946,789.8315 1039.031,789.6332 Q1039.4674,789.4348 1039.9312,789.0076 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="48.9583" x="1060.9375" y="791.3086">Lexakai</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="964.5833" x2="1175" y1="802.2786" y2="802.2786"/><polygon fill="#FFFF44" points="975,832.4402,979.1667,836.6069,975,840.7735,970.8333,836.6069" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="986.4583" y="844.5597">Lexakai()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="964.5833" x2="1026.0417" y1="820.4844" y2="820.4844"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1029.1667" y="824.294">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1113.5417" x2="1175" y1="820.4844" y2="820.4844"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="964.5833" x2="1175" y1="854.2684" y2="854.2684"/><ellipse cx="975" cy="865.7267" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="986.4583" y="872.6379">Lexakai get()</text><ellipse cx="975" cy="885.4716" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="167.7083" x="986.4583" y="892.3828">void main(String[] arguments)</text><ellipse cx="975" cy="905.2165" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="166.6667" x="986.4583" y="912.1277">LexakaiProject project(Folder)</text><ellipse cx="975" cy="948.8729" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="180.2083" x="986.4583" y="955.7841">CopyMode resourceCopyMode()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="964.5833" x2="1034.375" y1="931.7088" y2="931.7088"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="1037.5" y="935.5184">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1105.2083" x2="1175" y1="931.7088" y2="931.7088"/><!--MD5=[cd91c464fa9582b032e673759c376552]
+class LexakaiClassDiagram--><rect codeLine="35" fill="#282828" height="586.4217" id="LexakaiClassDiagram" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="466.6667" x="270.8333" y="1551.6195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="466.6667" x="270.8333" y="1551.6195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="466.6667" x="270.8333" y="1574.6745"/><rect codeLine="35" fill="none" height="586.4217" id="LexakaiClassDiagram" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="466.6667" x="270.8333" y="1551.6195"/><ellipse cx="427.0833" cy="1567.3136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M428.9937,1571.7387 Q428.5665,1571.9584 428.0965,1572.0683 Q427.6265,1572.1781 427.1077,1572.1781 Q425.2645,1572.1781 424.294,1570.9635 Q423.3236,1569.7489 423.3236,1567.454 Q423.3236,1565.153 424.294,1563.9384 Q425.2645,1562.7238 427.1077,1562.7238 Q427.6265,1562.7238 428.1026,1562.8337 Q428.5787,1562.9435 428.9937,1563.1632 L428.9937,1565.1652 Q428.5299,1564.738 428.0935,1564.5396 Q427.6571,1564.3412 427.1932,1564.3412 Q426.2044,1564.3412 425.7009,1565.1255 Q425.1973,1565.9098 425.1973,1567.454 Q425.1973,1568.9921 425.7009,1569.7764 Q426.2044,1570.5607 427.1932,1570.5607 Q427.6571,1570.5607 428.0935,1570.3623 Q428.5299,1570.164 428.9937,1569.7367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="139.5833" x="450" y="1572.0378">LexakaiClassDiagram</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="271.875" x2="736.4583" y1="1583.0078" y2="1583.0078"/><ellipse cx="282.2917" cy="1618.3777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="246.875" x="293.75" y="1625.2889">LexakaiClassDiagram(LexakaiProject, String)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="271.875" x2="460.4167" y1="1601.2136" y2="1601.2136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="463.5417" y="1605.0232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="547.9167" x2="736.4583" y1="1601.2136" y2="1601.2136"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="271.875" x2="736.4583" y1="1634.9976" y2="1634.9976"/><ellipse cx="282.2917" cy="1646.4559" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="194.7917" x="293.75" y="1653.3671">boolean automaticMethodGroups()</text><ellipse cx="282.2917" cy="1666.2008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="160.4167" x="293.75" y="1673.112">boolean has(UmlInheritance)</text><ellipse cx="282.2917" cy="1685.9456" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="131.25" x="293.75" y="1692.8569">LexakaiProject project()</text><ellipse cx="282.2917" cy="1705.6905" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="192.7083" x="293.75" y="1712.6017">Set&lt;String&gt; qualifiedTypeNames()</text><ellipse cx="282.2917" cy="1725.4354" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="178.125" x="293.75" y="1732.3466">Referent referent(Type referent)</text><ellipse cx="282.2917" cy="1745.1803" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="65.625" x="293.75" y="1752.0915">String title()</text><ellipse cx="282.2917" cy="1788.8367" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="157.2917" x="293.75" y="1795.7479">boolean isPackageDiagram()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="271.875" x2="477.6042" y1="1771.6726" y2="1771.6726"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="480.7292" y="1775.4822">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="530.7292" x2="736.4583" y1="1771.6726" y2="1771.6726"/><ellipse cx="282.2917" cy="1832.4931" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="229.1667" x="293.75" y="1839.4043">HashSet&lt;String&gt; abstractSuperClasses()</text><ellipse cx="282.2917" cy="1852.238" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="161.4583" x="293.75" y="1859.1492">boolean add(UmlInheritance)</text><ellipse cx="282.2917" cy="1871.9828" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="365.625" x="293.75" y="1878.894">List&lt;MethodDeclaration&gt; includedMethods(TypeDeclaration&lt;?&gt;)</text><ellipse cx="282.2917" cy="1891.7277" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="230.2083" x="293.75" y="1898.6389">List&lt;UmlType&gt; includedQualifiedTypes()</text><ellipse cx="282.2917" cy="1911.4726" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="100" x="293.75" y="1918.3838">boolean isEmpty()</text><ellipse cx="282.2917" cy="1931.2174" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="198.9583" x="293.75" y="1938.1287">HashSet&lt;Object&gt; superInterfaces()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="271.875" x2="469.7917" y1="1815.329" y2="1815.329"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="472.9167" y="1819.1386">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="538.5417" x2="736.4583" y1="1815.329" y2="1815.329"/><ellipse cx="282.2917" cy="1974.8739" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="125" x="293.75" y="1981.7851">void include(UmlType)</text><ellipse cx="282.2917" cy="1994.6187" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="262.5" x="293.75" y="2001.5299">boolean includeMembers(TypeDeclaration&lt;?&gt;)</text><ellipse cx="282.2917" cy="2014.3636" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="266.6667" x="293.75" y="2021.2748">boolean includeOverrides(TypeDeclaration&lt;?&gt;)</text><ellipse cx="282.2917" cy="2034.1085" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="434.375" x="293.75" y="2041.0197">void includedMethods(TypeDeclaration&lt;?&gt;, Consumer&lt;MethodDeclaration&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="271.875" x2="475" y1="1957.7098" y2="1957.7098"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="52.0833" x="478.125" y="1961.5194">(filtering)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="533.3333" x2="736.4583" y1="1957.7098" y2="1957.7098"/><ellipse cx="282.2917" cy="2077.7649" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="94.7917" x="293.75" y="2084.6761">String identifier()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="271.875" x2="476.0417" y1="2060.6008" y2="2060.6008"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="479.1667" y="2064.4104">(identity)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="532.2917" x2="736.4583" y1="2060.6008" y2="2060.6008"/><ellipse cx="282.2917" cy="2121.4213" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="303.125" x="293.75" y="2128.3325">boolean includesQualifiedTypeName(String typeName)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="271.875" x2="476.0417" y1="2104.2572" y2="2104.2572"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="479.1667" y="2108.0668">(naming)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="532.2917" x2="736.4583" y1="2104.2572" y2="2104.2572"/><!--MD5=[0a3ce8fd96b244d9fb97109c62f8cd04]
+class LexakaiProject--><rect codeLine="69" fill="#282828" height="1239.091" id="LexakaiProject" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="448.9583" x="275.5208" y="248.4945"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="448.9583" x="275.5208" y="248.4945"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="448.9583" x="275.5208" y="271.5495"/><rect codeLine="69" fill="none" height="1239.091" id="LexakaiProject" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="448.9583" x="275.5208" y="248.4945"/><ellipse cx="446.3542" cy="264.1886" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M448.2646,268.6137 Q447.8373,268.8334 447.3674,268.9433 Q446.8974,269.0531 446.3786,269.0531 Q444.5353,269.0531 443.5649,267.8385 Q442.5944,266.6239 442.5944,264.329 Q442.5944,262.028 443.5649,260.8134 Q444.5353,259.5988 446.3786,259.5988 Q446.8974,259.5988 447.3735,259.7087 Q447.8495,259.8185 448.2646,260.0382 L448.2646,262.0402 Q447.8007,261.613 447.3643,261.4146 Q446.9279,261.2162 446.464,261.2162 Q445.4753,261.2162 444.9717,262.0005 Q444.4682,262.7848 444.4682,264.329 Q444.4682,265.8671 444.9717,266.6514 Q445.4753,267.4357 446.464,267.4357 Q446.9279,267.4357 447.3643,267.2373 Q447.8007,267.039 448.2646,266.6117 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="92.7083" x="469.2708" y="268.9128">LexakaiProject</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="276.5625" x2="723.4375" y1="279.8828" y2="279.8828"/><ellipse cx="286.9792" cy="315.2527" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="367.7083" x="298.4375" y="322.1639">LexakaiProject(Lexakai, Version, Folder, Folder, Folder, JavaParser)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="276.5625" x2="456.25" y1="298.0886" y2="298.0886"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="459.375" y="301.8982">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="543.75" x2="723.4375" y1="298.0886" y2="298.0886"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="276.5625" x2="723.4375" y1="331.8726" y2="331.8726"/><ellipse cx="286.9792" cy="343.3309" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="194.7917" x="298.4375" y="350.2421">boolean automaticMethodGroups()</text><ellipse cx="286.9792" cy="363.0758" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="416.6667" x="298.4375" y="369.987">LexakaiProject automaticMethodGroups(boolean automaticMethodGroups)</text><ellipse cx="286.9792" cy="382.8206" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="138.5417" x="298.4375" y="389.7319">String diagramLocation()</text><ellipse cx="286.9792" cy="402.5655" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="229.1667" x="298.4375" y="409.4767">void diagramNames(Consumer&lt;String&gt;)</text><ellipse cx="286.9792" cy="422.3104" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="283.3333" x="298.4375" y="429.2216">void diagrams(Consumer&lt;LexakaiClassDiagram&gt;)</text><ellipse cx="286.9792" cy="442.0553" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="177.0833" x="298.4375" y="448.9665">String documentationLocation()</text><ellipse cx="286.9792" cy="461.8001" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="132.2917" x="298.4375" y="468.7113">String imagesLocation()</text><ellipse cx="286.9792" cy="481.545" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="135.4167" x="298.4375" y="488.4562">String javadocLocation()</text><ellipse cx="286.9792" cy="501.2899" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="173.9583" x="298.4375" y="508.2011">Pattern javadocSectionPattern()</text><ellipse cx="286.9792" cy="521.0347" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="254.1667" x="298.4375" y="527.946">LexakaiProject javadocSectionPattern(Pattern)</text><ellipse cx="286.9792" cy="540.7796" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="298.4375" y="547.6908">String link()</text><ellipse cx="286.9792" cy="560.5245" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="148.9583" x="298.4375" y="567.4357">String property(String key)</text><ellipse cx="286.9792" cy="580.2694" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="320.8333" x="298.4375" y="587.1806">void typeDeclarations(Consumer&lt;TypeDeclaration&lt;?&gt;&gt;)</text><ellipse cx="286.9792" cy="623.9258" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="364.5833" x="298.4375" y="630.837">LexakaiProject buildPackageDiagrams(boolean packageDiagrams)</text><ellipse cx="286.9792" cy="643.6707" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="182.2917" x="298.4375" y="650.5819">boolean buildPackageDiagrams()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="276.5625" x2="469.7917" y1="606.7617" y2="606.7617"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="54.1667" x="472.9167" y="610.5713">(building)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="530.2083" x2="723.4375" y1="606.7617" y2="606.7617"/><ellipse cx="286.9792" cy="687.3271" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="150" x="298.4375" y="694.2383">boolean hasChildProjects()</text><ellipse cx="286.9792" cy="707.0719" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="298.4375" y="713.9832">boolean hasSourceCode()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="276.5625" x2="473.4375" y1="670.163" y2="670.163"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="476.5625" y="673.9726">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="526.5625" x2="723.4375" y1="670.163" y2="670.163"/><ellipse cx="286.9792" cy="750.7284" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="151.0417" x="298.4375" y="757.6396">boolean addHtmlAnchors()</text><ellipse cx="286.9792" cy="770.4732" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="329.1667" x="298.4375" y="777.3844">LexakaiProject addHtmlAnchors(boolean addHtmlAnchors)</text><ellipse cx="286.9792" cy="790.2181" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="238.5417" x="298.4375" y="797.1293">ObjectList&lt;LexakaiProject&gt; childProjects()</text><ellipse cx="286.9792" cy="809.963" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="354.1667" x="298.4375" y="816.8742">ObjectList&lt;JavadocCoverage&gt; nestedProjectJavadocCoverage()</text><ellipse cx="286.9792" cy="829.7078" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="140.625" x="298.4375" y="836.6191">PropertyMap properties()</text><ellipse cx="286.9792" cy="849.4527" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="258.3333" x="298.4375" y="856.3639">List&lt;TypeDeclaration&lt;?&gt;&gt; typeDeclarations()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="276.5625" x2="465.625" y1="733.5642" y2="733.5642"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="468.75" y="737.3739">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="534.375" x2="723.4375" y1="733.5642" y2="733.5642"/><ellipse cx="286.9792" cy="893.1091" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="128.125" x="298.4375" y="900.0203">Folder diagramFolder()</text><ellipse cx="286.9792" cy="912.854" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="166.6667" x="298.4375" y="919.7652">Folder documentationFolder()</text><ellipse cx="286.9792" cy="932.5989" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="208.3333" x="298.4375" y="939.5101">Folder documentationLexakaiFolder()</text><ellipse cx="286.9792" cy="952.3438" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="80.2083" x="298.4375" y="959.255">Folder folder()</text><ellipse cx="286.9792" cy="972.0886" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="121.875" x="298.4375" y="978.9998">Folder imagesFolder()</text><ellipse cx="286.9792" cy="991.8335" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="119.7917" x="298.4375" y="998.7447">Folder outputFolder()</text><ellipse cx="286.9792" cy="1011.5784" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="145.8333" x="298.4375" y="1018.4896">Folder outputRootFolder()</text><ellipse cx="286.9792" cy="1031.3232" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="179.1667" x="298.4375" y="1038.2345">File parentReadMeTemplateFile()</text><ellipse cx="286.9792" cy="1051.0681" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="140.625" x="298.4375" y="1057.9793">File readMeTemplateFile()</text><ellipse cx="286.9792" cy="1070.813" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="90.625" x="298.4375" y="1077.7242">File readmeFile()</text><ellipse cx="286.9792" cy="1090.5579" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="298.4375" y="1097.4691">Folder relativeFolder()</text><ellipse cx="286.9792" cy="1110.3027" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="162.5" x="298.4375" y="1117.2139">Folder relativeOutputFolder()</text><ellipse cx="286.9792" cy="1130.0476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="120.8333" x="298.4375" y="1136.9588">Folder sourceFolder()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="276.5625" x2="464.5833" y1="875.945" y2="875.945"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="467.7083" y="879.7546">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="535.4167" x2="723.4375" y1="875.945" y2="875.945"/><ellipse cx="286.9792" cy="1173.704" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="305.2083" x="298.4375" y="1180.6152">LexakaiProject includeObjectMethods(boolean include)</text><ellipse cx="286.9792" cy="1193.4489" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="181.25" x="298.4375" y="1200.3601">boolean includeObjectMethods()</text><ellipse cx="286.9792" cy="1213.1938" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="321.875" x="298.4375" y="1220.105">LexakaiProject includeProtectedMethods(boolean include)</text><ellipse cx="286.9792" cy="1232.9386" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="197.9167" x="298.4375" y="1239.8499">boolean includeProtectedMethods()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="276.5625" x2="470.8333" y1="1156.5399" y2="1156.5399"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="52.0833" x="473.9583" y="1160.3495">(filtering)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="529.1667" x2="723.4375" y1="1156.5399" y2="1156.5399"/><ellipse cx="286.9792" cy="1276.5951" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="95.8333" x="298.4375" y="1283.5063">Version version()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="276.5625" x2="471.875" y1="1259.4309" y2="1259.4309"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="475" y="1263.2406">(identity)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="528.125" x2="723.4375" y1="1259.4309" y2="1259.4309"/><ellipse cx="286.9792" cy="1320.2515" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="298.4375" y="1327.1627">void initialize()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="276.5625" x2="470.3125" y1="1303.0874" y2="1303.0874"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="53.125" x="473.4375" y="1306.897">(lifecycle)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="529.6875" x2="723.4375" y1="1303.0874" y2="1303.0874"/><ellipse cx="286.9792" cy="1363.9079" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="231.25" x="298.4375" y="1370.8191">Percent averageProjectJavadocCoverage()</text><ellipse cx="286.9792" cy="1383.6528" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="236.4583" x="298.4375" y="1390.564">String meterMarkdownForPercent(Percent)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="276.5625" x2="478.6458" y1="1346.7438" y2="1346.7438"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="481.7708" y="1350.5534">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="521.3542" x2="723.4375" y1="1346.7438" y2="1346.7438"/><ellipse cx="286.9792" cy="1427.3092" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="298.4375" y="1434.2204">String name()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="276.5625" x2="471.875" y1="1410.1451" y2="1410.1451"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="475" y="1413.9547">(naming)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="528.125" x2="723.4375" y1="1410.1451" y2="1410.1451"/><ellipse cx="286.9792" cy="1470.9656" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="116.6667" x="298.4375" y="1477.8768">void updateReadMe()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="276.5625" x2="480.2083" y1="1453.8015" y2="1453.8015"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="33.3333" x="483.3333" y="1457.6111">(read)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="519.7917" x2="723.4375" y1="1453.8015" y2="1453.8015"/><!--MD5=[e90ef443e2de7449fab3197113b43b47]
+class LexakaiClassDiagram.Referent--><rect codeLine="132" fill="#282828" height="131.2012" id="LexakaiClassDiagram.Referent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="234.375" x="1161.9792" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="234.375" x="1161.9792" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="234.375" x="1161.9792" y="76.7578"/><rect codeLine="132" fill="none" height="131.2012" id="LexakaiClassDiagram.Referent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="234.375" x="1161.9792" y="53.7028"/><ellipse cx="1176.5625" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1178.4729,73.822 Q1178.0457,74.0417 1177.5757,74.1516 Q1177.1057,74.2615 1176.5869,74.2615 Q1174.7437,74.2615 1173.7732,73.0469 Q1172.8027,71.8323 1172.8027,69.5374 Q1172.8027,67.2363 1173.7732,66.0217 Q1174.7437,64.8071 1176.5869,64.8071 Q1177.1057,64.8071 1177.5818,64.917 Q1178.0579,65.0269 1178.4729,65.2466 L1178.4729,67.2485 Q1178.009,66.8213 1177.5726,66.6229 Q1177.1362,66.4246 1176.6724,66.4246 Q1175.6836,66.4246 1175.1801,67.2089 Q1174.6765,67.9932 1174.6765,69.5374 Q1174.6765,71.0754 1175.1801,71.8597 Q1175.6836,72.644 1176.6724,72.644 Q1177.1362,72.644 1177.5726,72.4457 Q1178.009,72.2473 1178.4729,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="196.875" x="1193.2292" y="74.1211">LexakaiClassDiagram.Referent</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1163.0208" x2="1395.3125" y1="85.0911" y2="85.0911"/><ellipse cx="1173.4375" cy="120.461" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="121.875" x="1184.8958" y="127.3722">Referent(String, Type)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1163.0208" x2="1235.4167" y1="103.2969" y2="103.2969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1238.5417" y="107.1065">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1322.9167" x2="1395.3125" y1="103.2969" y2="103.2969"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1163.0208" x2="1395.3125" y1="137.0809" y2="137.0809"/><ellipse cx="1173.4375" cy="148.5392" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="103.125" x="1184.8958" y="155.4504">String cardinality()</text><ellipse cx="1173.4375" cy="168.2841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="83.3333" x="1184.8958" y="175.1953">Type referent()</text><!--MD5=[d577b87d57838e1c1e0781a982567153]
+reverse link BaseRepeater to BaseLexakaiDiagram--><path codeLine="12" d="M277.5938,163.984 C271.4583,188.734 263.7604,220.307 257.2917,248.4945 C207.7292,464.2965 153.5833,723.7236 132.7708,824.4007 " fill="none" id="BaseRepeater-backto-BaseLexakaiDiagram" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="270.5938,161.9215,282.7083,143.4736,284.7396,165.4528,270.5938,161.9215" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[1a1431ce37d8053f400fb8f8766fec82]
+reverse link Application to Lexakai--><path codeLine="20" d="M1069.7917,164.5882 C1069.7917,282.682 1069.7917,607.5674 1069.7917,770.8695 " fill="none" id="Application-backto-Lexakai" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1062.5,164.3695,1069.7917,143.5361,1077.0833,164.3695,1062.5,164.3695" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[fa551b829565ba58f1de5fa1b0985ed4]
+reverse link BaseLexakaiDiagram to LexakaiClassDiagram--><path codeLine="33" d="M129.3958,933.234 C140.9688,1048.3799 174.1563,1296.5049 257.2917,1488.0778 C266.4896,1509.2861 277.0521,1530.5257 288.5,1551.4945 " fill="none" id="BaseLexakaiDiagram-backto-LexakaiClassDiagram" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="122.125,933.7965,127.3854,912.359,136.6354,932.4007,122.125,933.7965" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[71641bad2aa654f1bc64e2946986b1b1]
+reverse link Named to LexakaiClassDiagram--><path codeLine="34" d="M890.3229,913.359 C900.1042,1018.1403 914.1354,1288.4424 826.0417,1488.0778 C804.1875,1537.609 772.6771,1584.9215 737.8333,1627.9424 " fill="none" id="Named-backto-LexakaiClassDiagram" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="883.0625,913.9945,888.2188,892.5361,897.5625,912.5257,883.0625,913.9945" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[ee932fd7f1e0a70ce902c840e2ec0ec6]
+reverse link BaseRepeater to LexakaiProject--><path codeLine="66" d="M300.8646,163.8903 C307.0313,185.6611 315.2188,214.5882 324.7604,248.307 " fill="none" id="BaseRepeater-backto-LexakaiProject" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="293.7604,165.5778,295.1042,143.5361,307.7917,161.5986,293.7604,165.5778" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[7833d3205852db5b5922448a307d98f4]
+reverse link Comparable to LexakaiProject--><path codeLine="67" d="M500,164.5882 C500,186.2757 500,214.9424 500,248.307 " fill="none" id="Comparable-backto-LexakaiProject" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="492.7083,164.3695,500,143.5361,507.2917,164.3695,492.7083,164.3695" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[b04245787456317ee4873214d554c407]
+link LexakaiProject to LexakaiProject--><path codeLine="68" d="M724.5521,768.9111 C746.7917,788.8278 760.9375,821.9528 760.9375,868.2861 C760.9375,911.7236 748.5,943.557 728.625,963.7757 " fill="none" id="LexakaiProject-to-LexakaiProject" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="724.5521,967.6611,734.2069,964.1919,728.3158,964.061,728.4468,958.1699,724.5521,967.6611" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="45.8333" x="770.3125" y="873.0794">creates</text><!--MD5=[d8da52424bdd5c2a2e7e6435b3727f1c]
+@startuml
+
+    !include ../lexakai/lexakai.theme
+    
+    title "com.telenav.lexakai"
+    
+    abstract BaseRepeater
+    abstract BaseLexakaiDiagram
+    
+    interface Named
+    interface Comparable
+    
+    BaseRepeater <|- - BaseLexakaiDiagram
+    abstract class BaseLexakaiDiagram
+    {
+        - -
+        +String uml(String title)
+        #void onUml(IndentingStringBuilder)
+    }
+    
+    Application <|- - Lexakai
+    class Lexakai
+    {
+        - -(constructors)- -
+        #Lexakai()
+        - -
+        +Lexakai get()
+        +void main(String[] arguments)
+        +LexakaiProject project(Folder)
+        - -(filesystem)- -
+        +CopyMode resourceCopyMode()
+    }
+    
+    BaseLexakaiDiagram <|- - LexakaiClassDiagram
+    Named <|- - LexakaiClassDiagram
+    class LexakaiClassDiagram
+    {
+        - -(constructors)- -
+        +LexakaiClassDiagram(LexakaiProject, String)
+        - -
+        +boolean automaticMethodGroups()
+        +boolean has(UmlInheritance)
+        +LexakaiProject project()
+        +Set<String> qualifiedTypeNames()
+        +Referent referent(Type referent)
+        +String title()
+        - -(checks)- -
+        +boolean isPackageDiagram()
+        - -(collection)- -
+        +HashSet<String> abstractSuperClasses()
+        +boolean add(UmlInheritance)
+        +List<MethodDeclaration> includedMethods(TypeDeclaration<?>)
+        +List<UmlType> includedQualifiedTypes()
+        +boolean isEmpty()
+        +HashSet<Object> superInterfaces()
+        - -(filtering)- -
+        +void include(UmlType)
+        +boolean includeMembers(TypeDeclaration<?>)
+        +boolean includeOverrides(TypeDeclaration<?>)
+        +void includedMethods(TypeDeclaration<?>, Consumer<MethodDeclaration>)
+        - -(identity)- -
+        +String identifier()
+        - -(naming)- -
+        +boolean includesQualifiedTypeName(String typeName)
+    }
+    
+    BaseRepeater <|- - LexakaiProject
+    Comparable <|- - LexakaiProject
+    LexakaiProject - -> LexakaiProject : "creates"
+    class LexakaiProject
+    {
+        - -(constructors)- -
+        +LexakaiProject(Lexakai, Version, Folder, Folder, Folder, JavaParser)
+        - -
+        +boolean automaticMethodGroups()
+        +LexakaiProject automaticMethodGroups(boolean automaticMethodGroups)
+        +String diagramLocation()
+        +void diagramNames(Consumer<String>)
+        +void diagrams(Consumer<LexakaiClassDiagram>)
+        +String documentationLocation()
+        +String imagesLocation()
+        +String javadocLocation()
+        +Pattern javadocSectionPattern()
+        +LexakaiProject javadocSectionPattern(Pattern)
+        +String link()
+        +String property(String key)
+        +void typeDeclarations(Consumer<TypeDeclaration<?>>)
+        - -(building)- -
+        +LexakaiProject buildPackageDiagrams(boolean packageDiagrams)
+        +boolean buildPackageDiagrams()
+        - -(checks)- -
+        +boolean hasChildProjects()
+        +boolean hasSourceCode()
+        - -(collection)- -
+        +boolean addHtmlAnchors()
+        +LexakaiProject addHtmlAnchors(boolean addHtmlAnchors)
+        +ObjectList<LexakaiProject> childProjects()
+        +ObjectList<JavadocCoverage> nestedProjectJavadocCoverage()
+        +PropertyMap properties()
+        +List<TypeDeclaration<?>> typeDeclarations()
+        - -(filesystem)- -
+        +Folder diagramFolder()
+        +Folder documentationFolder()
+        +Folder documentationLexakaiFolder()
+        +Folder folder()
+        +Folder imagesFolder()
+        +Folder outputFolder()
+        +Folder outputRootFolder()
+        +File parentReadMeTemplateFile()
+        +File readMeTemplateFile()
+        +File readmeFile()
+        +Folder relativeFolder()
+        +Folder relativeOutputFolder()
+        +Folder sourceFolder()
+        - -(filtering)- -
+        +LexakaiProject includeObjectMethods(boolean include)
+        +boolean includeObjectMethods()
+        +LexakaiProject includeProtectedMethods(boolean include)
+        +boolean includeProtectedMethods()
+        - -(identity)- -
+        +Version version()
+        - -(lifecycle)- -
+        +void initialize()
+        - -(math)- -
+        +Percent averageProjectJavadocCoverage()
+        +String meterMarkdownForPercent(Percent)
+        - -(naming)- -
+        +String name()
+        - -(read)- -
+        +void updateReadMe()
+    }
+    
+    class LexakaiClassDiagram.Referent
+    {
+        - -(constructors)- -
+        +Referent(String, Type)
+        - -
+        +String cardinality()
+        +Type referent()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.lexakai"
+    
+    abstract BaseRepeater
+    abstract BaseLexakaiDiagram
+    
+    interface Named
+    interface Comparable
+    
+    BaseRepeater <|- - BaseLexakaiDiagram
+    abstract class BaseLexakaiDiagram
+    {
+        - -
+        +String uml(String title)
+        #void onUml(IndentingStringBuilder)
+    }
+    
+    Application <|- - Lexakai
+    class Lexakai
+    {
+        - -(constructors)- -
+        #Lexakai()
+        - -
+        +Lexakai get()
+        +void main(String[] arguments)
+        +LexakaiProject project(Folder)
+        - -(filesystem)- -
+        +CopyMode resourceCopyMode()
+    }
+    
+    BaseLexakaiDiagram <|- - LexakaiClassDiagram
+    Named <|- - LexakaiClassDiagram
+    class LexakaiClassDiagram
+    {
+        - -(constructors)- -
+        +LexakaiClassDiagram(LexakaiProject, String)
+        - -
+        +boolean automaticMethodGroups()
+        +boolean has(UmlInheritance)
+        +LexakaiProject project()
+        +Set<String> qualifiedTypeNames()
+        +Referent referent(Type referent)
+        +String title()
+        - -(checks)- -
+        +boolean isPackageDiagram()
+        - -(collection)- -
+        +HashSet<String> abstractSuperClasses()
+        +boolean add(UmlInheritance)
+        +List<MethodDeclaration> includedMethods(TypeDeclaration<?>)
+        +List<UmlType> includedQualifiedTypes()
+        +boolean isEmpty()
+        +HashSet<Object> superInterfaces()
+        - -(filtering)- -
+        +void include(UmlType)
+        +boolean includeMembers(TypeDeclaration<?>)
+        +boolean includeOverrides(TypeDeclaration<?>)
+        +void includedMethods(TypeDeclaration<?>, Consumer<MethodDeclaration>)
+        - -(identity)- -
+        +String identifier()
+        - -(naming)- -
+        +boolean includesQualifiedTypeName(String typeName)
+    }
+    
+    BaseRepeater <|- - LexakaiProject
+    Comparable <|- - LexakaiProject
+    LexakaiProject - -> LexakaiProject : "creates"
+    class LexakaiProject
+    {
+        - -(constructors)- -
+        +LexakaiProject(Lexakai, Version, Folder, Folder, Folder, JavaParser)
+        - -
+        +boolean automaticMethodGroups()
+        +LexakaiProject automaticMethodGroups(boolean automaticMethodGroups)
+        +String diagramLocation()
+        +void diagramNames(Consumer<String>)
+        +void diagrams(Consumer<LexakaiClassDiagram>)
+        +String documentationLocation()
+        +String imagesLocation()
+        +String javadocLocation()
+        +Pattern javadocSectionPattern()
+        +LexakaiProject javadocSectionPattern(Pattern)
+        +String link()
+        +String property(String key)
+        +void typeDeclarations(Consumer<TypeDeclaration<?>>)
+        - -(building)- -
+        +LexakaiProject buildPackageDiagrams(boolean packageDiagrams)
+        +boolean buildPackageDiagrams()
+        - -(checks)- -
+        +boolean hasChildProjects()
+        +boolean hasSourceCode()
+        - -(collection)- -
+        +boolean addHtmlAnchors()
+        +LexakaiProject addHtmlAnchors(boolean addHtmlAnchors)
+        +ObjectList<LexakaiProject> childProjects()
+        +ObjectList<JavadocCoverage> nestedProjectJavadocCoverage()
+        +PropertyMap properties()
+        +List<TypeDeclaration<?>> typeDeclarations()
+        - -(filesystem)- -
+        +Folder diagramFolder()
+        +Folder documentationFolder()
+        +Folder documentationLexakaiFolder()
+        +Folder folder()
+        +Folder imagesFolder()
+        +Folder outputFolder()
+        +Folder outputRootFolder()
+        +File parentReadMeTemplateFile()
+        +File readMeTemplateFile()
+        +File readmeFile()
+        +Folder relativeFolder()
+        +Folder relativeOutputFolder()
+        +Folder sourceFolder()
+        - -(filtering)- -
+        +LexakaiProject includeObjectMethods(boolean include)
+        +boolean includeObjectMethods()
+        +LexakaiProject includeProtectedMethods(boolean include)
+        +boolean includeProtectedMethods()
+        - -(identity)- -
+        +Version version()
+        - -(lifecycle)- -
+        +void initialize()
+        - -(math)- -
+        +Percent averageProjectJavadocCoverage()
+        +String meterMarkdownForPercent(Percent)
+        - -(naming)- -
+        +String name()
+        - -(read)- -
+        +void updateReadMe()
+    }
+    
+    class LexakaiClassDiagram.Referent
+    {
+        - -(constructors)- -
+        +Referent(String, Type)
+        - -
+        +String cardinality()
+        +Type referent()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

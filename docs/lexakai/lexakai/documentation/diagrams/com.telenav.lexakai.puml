@@ -1,0 +1,143 @@
+@startuml
+
+    !include ../lexakai/lexakai.theme
+    
+    title "com.telenav.lexakai"
+    
+    abstract BaseRepeater
+    abstract BaseLexakaiDiagram
+    
+    interface Named
+    interface Comparable
+    
+    BaseRepeater <|-- BaseLexakaiDiagram
+    abstract class BaseLexakaiDiagram
+    {
+        --
+        +String uml(String title)
+        #void onUml(IndentingStringBuilder)
+    }
+    
+    Application <|-- Lexakai
+    class Lexakai
+    {
+        --(constructors)--
+        #Lexakai()
+        --
+        +Lexakai get()
+        +void main(String[] arguments)
+        +LexakaiProject project(Folder)
+        --(filesystem)--
+        +CopyMode resourceCopyMode()
+    }
+    
+    BaseLexakaiDiagram <|-- LexakaiClassDiagram
+    Named <|-- LexakaiClassDiagram
+    class LexakaiClassDiagram
+    {
+        --(constructors)--
+        +LexakaiClassDiagram(LexakaiProject, String)
+        --
+        +boolean automaticMethodGroups()
+        +boolean has(UmlInheritance)
+        +LexakaiProject project()
+        +Set<String> qualifiedTypeNames()
+        +Referent referent(Type referent)
+        +String title()
+        --(checks)--
+        +boolean isPackageDiagram()
+        --(collection)--
+        +HashSet<String> abstractSuperClasses()
+        +boolean add(UmlInheritance)
+        +List<MethodDeclaration> includedMethods(TypeDeclaration<?>)
+        +List<UmlType> includedQualifiedTypes()
+        +boolean isEmpty()
+        +HashSet<Object> superInterfaces()
+        --(filtering)--
+        +void include(UmlType)
+        +boolean includeMembers(TypeDeclaration<?>)
+        +boolean includeOverrides(TypeDeclaration<?>)
+        +void includedMethods(TypeDeclaration<?>, Consumer<MethodDeclaration>)
+        --(identity)--
+        +String identifier()
+        --(naming)--
+        +boolean includesQualifiedTypeName(String typeName)
+    }
+    
+    BaseRepeater <|-- LexakaiProject
+    Comparable <|-- LexakaiProject
+    LexakaiProject --> LexakaiProject : "creates"
+    class LexakaiProject
+    {
+        --(constructors)--
+        +LexakaiProject(Lexakai, Version, Folder, Folder, Folder, JavaParser)
+        --
+        +boolean automaticMethodGroups()
+        +LexakaiProject automaticMethodGroups(boolean automaticMethodGroups)
+        +String diagramLocation()
+        +void diagramNames(Consumer<String>)
+        +void diagrams(Consumer<LexakaiClassDiagram>)
+        +String documentationLocation()
+        +String imagesLocation()
+        +String javadocLocation()
+        +Pattern javadocSectionPattern()
+        +LexakaiProject javadocSectionPattern(Pattern)
+        +String link()
+        +String property(String key)
+        +void typeDeclarations(Consumer<TypeDeclaration<?>>)
+        --(building)--
+        +LexakaiProject buildPackageDiagrams(boolean packageDiagrams)
+        +boolean buildPackageDiagrams()
+        --(checks)--
+        +boolean hasChildProjects()
+        +boolean hasSourceCode()
+        --(collection)--
+        +boolean addHtmlAnchors()
+        +LexakaiProject addHtmlAnchors(boolean addHtmlAnchors)
+        +ObjectList<LexakaiProject> childProjects()
+        +ObjectList<JavadocCoverage> nestedProjectJavadocCoverage()
+        +PropertyMap properties()
+        +List<TypeDeclaration<?>> typeDeclarations()
+        --(filesystem)--
+        +Folder diagramFolder()
+        +Folder documentationFolder()
+        +Folder documentationLexakaiFolder()
+        +Folder folder()
+        +Folder imagesFolder()
+        +Folder outputFolder()
+        +Folder outputRootFolder()
+        +File parentReadMeTemplateFile()
+        +File readMeTemplateFile()
+        +File readmeFile()
+        +Folder relativeFolder()
+        +Folder relativeOutputFolder()
+        +Folder sourceFolder()
+        --(filtering)--
+        +LexakaiProject includeObjectMethods(boolean include)
+        +boolean includeObjectMethods()
+        +LexakaiProject includeProtectedMethods(boolean include)
+        +boolean includeProtectedMethods()
+        --(identity)--
+        +Version version()
+        --(lifecycle)--
+        +void initialize()
+        --(math)--
+        +Percent averageProjectJavadocCoverage()
+        +String meterMarkdownForPercent(Percent)
+        --(naming)--
+        +String name()
+        --(read)--
+        +void updateReadMe()
+    }
+    
+    class LexakaiClassDiagram.Referent
+    {
+        --(constructors)--
+        +Referent(String, Type)
+        --
+        +String cardinality()
+        +Type referent()
+    }
+    
+@enduml
+
