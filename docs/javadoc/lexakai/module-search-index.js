@@ -1,1 +1,1 @@
-moduleSearchIndex = [{"l":"lexakai.application"}]
+moduleSearchIndex = [{"l":"lexakai"}]

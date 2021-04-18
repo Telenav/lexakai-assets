@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"m":"lexakai.application","l":"com.telenav.lexakai"},{"m":"lexakai.application","l":"com.telenav.lexakai.javadoc"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"m":"lexakai","l":"com.telenav.lexakai"},{"m":"lexakai","l":"com.telenav.lexakai.javadoc"}]

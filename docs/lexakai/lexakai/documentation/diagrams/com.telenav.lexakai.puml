@@ -79,6 +79,7 @@
         +void diagrams(Consumer<LexakaiClassDiagram>)
         +String documentationLocation()
         +String imagesLocation()
+        +String javadocLocation(UmlType)
         +String javadocLocation()
         +Pattern javadocSectionPattern()
         +LexakaiProject javadocSectionPattern(Pattern)

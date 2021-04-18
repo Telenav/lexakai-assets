@@ -65,6 +65,8 @@
     kivakit_core_kernel --> annotations
     kivakit_core_kernel --> jackson_annotations
     kivakit_core_kernel --> junit
+    kivakit_core_kernel --> kivakit_build_metadata
+    kivakit_core_kernel --> lexakai_annotations
     kivakit_core_kernel --> swagger_annotations
     kivakit_core_network_core --> kivakit_core_security
     kivakit_core_network_http --> httpclient
@@ -82,8 +84,6 @@
     lexakai --> kivakit_core_network_http
     lexakai --> kivakit_core_resource
     lexakai --> kivakit_data_formats_xml
-    lexakai --> lexakai_annotations
-    lexakai_annotations --> kivakit_build_metadata
     reflectasm --> asm
     
 @enduml
