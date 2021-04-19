@@ -156,6 +156,7 @@
         +String projectArtifactId()
         --(naming)--
         +String projectModuleName()
+        +String projectName()
         --(write)--
         +String outputDiagramsLocation()
         +String outputDocumentationLocation()
