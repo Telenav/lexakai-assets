@@ -74,16 +74,12 @@
         --
         +boolean automaticMethodGroups()
         +LexakaiProject automaticMethodGroups(boolean automaticMethodGroups)
-        +String diagramLocation()
         +void diagramNames(Consumer<String>)
         +void diagrams(Consumer<LexakaiClassDiagram>)
-        +String documentationLocation()
-        +String imagesLocation()
-        +String javadocLocation(UmlType)
-        +String javadocLocation()
         +Pattern javadocSectionPattern()
         +LexakaiProject javadocSectionPattern(Pattern)
         +String link()
+        +LexakaiProjectProperties properties()
         +String property(String key)
         +void typeDeclarations(Consumer<TypeDeclaration<?>>)
         --(building)--
@@ -97,22 +93,10 @@
         +LexakaiProject addHtmlAnchors(boolean addHtmlAnchors)
         +ObjectList<LexakaiProject> childProjects()
         +ObjectList<JavadocCoverage> nestedProjectJavadocCoverage()
-        +PropertyMap properties()
         +List<TypeDeclaration<?>> typeDeclarations()
         --(filesystem)--
-        +Folder diagramFolder()
-        +Folder documentationFolder()
-        +Folder documentationLexakaiFolder()
-        +Folder folder()
-        +Folder imagesFolder()
-        +Folder outputFolder()
-        +Folder outputRootFolder()
-        +File parentReadMeTemplateFile()
-        +File readMeTemplateFile()
-        +File readmeFile()
-        +Folder relativeFolder()
-        +Folder relativeOutputFolder()
-        +Folder sourceFolder()
+        +LexakaiProjectFiles files()
+        +LexakaiProjectFolders folders()
         --(filtering)--
         +LexakaiProject includeObjectMethods(boolean include)
         +boolean includeObjectMethods()
@@ -127,8 +111,56 @@
         +String meterMarkdownForPercent(Percent)
         --(naming)--
         +String name()
+        +String rootProjectName()
         --(read)--
         +void updateReadMe()
+    }
+    
+    class LexakaiProjectFiles
+    {
+        --(constructors)--
+        +LexakaiProjectFiles(LexakaiProject)
+        --(filesystem)--
+        +File outputLexakaiProperties()
+        +File outputLexakaiSettings()
+        +File readMeTemplate()
+        +File readme()
+        +File sourceProjectProperties()
+    }
+    
+    class LexakaiProjectFolders
+    {
+        --(constructors)--
+        +LexakaiProjectFolders(LexakaiProject, Folder, Folder, Folder)
+        --(filesystem)--
+        +Folder images()
+        +Folder output()
+        +Folder outputDiagrams()
+        +Folder outputDocumentation()
+        +Folder outputLexakai()
+        +Folder outputRoot()
+        +Folder root()
+        +Folder sourceFolder()
+        +Folder sourceProject()
+        +Folder sourceRelativeProject()
+    }
+    
+    PropertyMap <|-- LexakaiProjectProperties
+    class LexakaiProjectProperties
+    {
+        --(constructors)--
+        +LexakaiProjectProperties(LexakaiProject)
+        --
+        +String imagesLocation()
+        --(identity)--
+        +String projectArtifactId()
+        --(naming)--
+        +String projectModuleName()
+        --(write)--
+        +String outputDiagramsLocation()
+        +String outputDocumentationLocation()
+        +String outputJavadocLocation()
+        +String outputJavadocLocation(UmlType)
     }
     
     class LexakaiClassDiagram.Referent
