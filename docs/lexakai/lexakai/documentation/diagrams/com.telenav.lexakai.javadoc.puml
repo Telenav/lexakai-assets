@@ -21,7 +21,7 @@
         +StringList summary()
         +StringList warnings()
         --(distance)--
-        +String projectCoverageMeter()
+        +String projectCoverageMeter(Folder)
         --(math)--
         +Percent projectCoverage()
     }

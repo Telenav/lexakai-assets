@@ -78,7 +78,7 @@
         +void diagrams(Consumer<LexakaiClassDiagram>)
         +Pattern javadocSectionPattern()
         +LexakaiProject javadocSectionPattern(Pattern)
-        +String link()
+        +String link(Folder)
         +LexakaiProjectProperties properties()
         +String property(String key)
         +void typeDeclarations(Consumer<TypeDeclaration<?>>)
@@ -139,10 +139,10 @@
         +Folder outputDocumentation()
         +Folder outputLexakai()
         +Folder outputRoot()
-        +Folder root()
-        +Folder sourceFolder()
+        +Folder sourceCode()
         +Folder sourceProject()
-        +Folder sourceRelativeProject()
+        +Folder sourceProjectRelativeToRoot()
+        +Folder sourceRoot()
     }
     
     PropertyMap <|-- LexakaiProjectProperties
