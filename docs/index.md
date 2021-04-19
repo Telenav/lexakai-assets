@@ -58,13 +58,13 @@ For an example of Lexakai created documentation see [KivaKit](https://github.com
 
 ![](images/short-horizontal-line.png)
 
-### Creating Basic UML Package Diagrams <a name = "creating-basic-uml-package-diagrams"></a>&nbsp; ![](images/box-40.png)
+### Creating Basic UML Package Diagrams <a name = "creating-basic-uml-package-diagrams"></a>&nbsp; ![](images/box-32.png)
 
 Lexakai automatically creates basic package diagrams for all public types without further configuration.
 
 ![](images/short-horizontal-line.png)
 
-### Custom UML Diagrams <a name = "custom-uml-diagrams"></a>&nbsp; &nbsp; ![](images/diagram-48.png)
+### Custom UML Diagrams <a name = "custom-uml-diagrams"></a>&nbsp; &nbsp; ![](images/diagram-32.png)
 
 To create a set of one or more custom diagrams for a project, annotations can be used from this project:
 
@@ -93,7 +93,7 @@ Diagram* to make their use clear.
 
 ![](images/short-horizontal-line.png)
 
-### Grouping Methods in Class Diagrams <a name = "grouping-methods-in-class-diagrams"></a>&nbsp; ![](images/set-40.png)
+### Grouping Methods in Class Diagrams <a name = "grouping-methods-in-class-diagrams"></a>&nbsp; ![](images/set-32.png)
 
 Groups of methods can be specified using the *@UmlMethodGroup* annotation. Method groups will be given labeled separators in class diagrams,
 making the list of methods easier to understand.
@@ -107,7 +107,7 @@ annotations can be added to specify that a method should be shown in more than o
 
 ![](images/short-horizontal-line.png)
 
-### Automatic Method Groups <a name = "automatic-method-groups"></a>&nbsp;![](images/gears-40.png)
+### Automatic Method Groups <a name = "automatic-method-groups"></a>&nbsp;![](images/gears-32.png)
 
 The *@UmlMethodGroup* annotation can be avoided if the switch *-automatic-method-groups* is set to *true*
 (which is the default). In this case, the best guess will be made based on method name and parameter patterns as to which group a method
@@ -165,7 +165,7 @@ Methods and fields can be excluded entirely by labeling them with *@UmlExcludeMe
 
 ![](images/short-horizontal-line.png)
 
-### Configuration <a name = "configuration"></a>&nbsp; ![](images/tools-40.png)
+### Configuration <a name = "configuration"></a>&nbsp; ![](images/tools-32.png)
 
 The *documentation* folder for each project should contain a *lexakai* folder with a *lexakai.properties* file that looks similar to this:
 
