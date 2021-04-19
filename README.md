@@ -1,10 +1,10 @@
-# lexakai-data &nbsp; <img src="https://www.lexakai.org/images/lexakai-32.png" srcset="https://www.kivakit.org/lexakai-32-2x.png 2x"/>
+# lexakai-data &nbsp; <img src="https://www.kivakit.org/images/lexakai-32.png" srcset="https://www.kivakit.org/lexakai-32-2x.png 2x"/>
 
 This project contains binary data and applications used by Lexakai.
 
-<img src="https://www.lexakai.org/images/horizontal-line-512.png" srcset="https://www.lexakai.org/images/horizontal-line-512-2x.png 2x"/>
+<img src="https://www.kivakit.org/images/horizontal-line-512.png" srcset="https://www.kivakit.org/images/horizontal-line-512-2x.png 2x"/>
 
-### Projects &nbsp; <img src="https://www.lexakai.org/images/gears-32.png" srcset="https://www.kivakit.org/gears-32-2x.png 2x"/>
+### Projects &nbsp; <img src="https://www.kivakit.org/images/gears-32.png" srcset="https://www.kivakit.org/gears-32-2x.png 2x"/>
 
 - [**logos**](logos) - Logos used in applications
 - [**icons**](icons) - Icons used in documentation
@@ -15,7 +15,7 @@ This project contains binary data and applications used by Lexakai.
 - [**docs/javadoc**](docs/javadoc) - KivaKit Javadoc
 - [**docs/lexakai**](docs/javadoc) - KivaKit Lexakai documentation
 
-<img src="https://www.lexakai.org/images/horizontal-line-512.png" srcset="https://www.lexakai.org/images/horizontal-line-512-2x.png 2x"/>
+<img src="https://www.kivakit.org/images/horizontal-line-512.png" srcset="https://www.kivakit.org/images/horizontal-line-512-2x.png 2x"/>
 
 <sub>Copyright 2011-2021 [Telenav](http://telenav.com), Inc. Licensed under [Apache License, Version 2.0](LICENSE)</sub>
 s
