@@ -1,7 +1,7 @@
 
-
+&nbsp;
 <a href="https://github.com/Telenav/lexakai">
-<img src="https://www.kivakit.org/images/world-32.png" srcset="https://www.kivakit.org/images/github-32-2x.png 2x"/>
+<img src="https://www.kivakit.org/images/github-32.png" srcset="https://www.kivakit.org/images/github-32-2x.png 2x"/>
 </a>
 &nbsp;
 <a href="https://twitter.com/openlexakai">
@@ -16,7 +16,7 @@
 
 <img src="https://www.lexakai.org/images/lexakai-background-1024.png" srcset="https://www.lexakai.org/images/lexakai-background-1024-2x.png 2x"/>  
 
-## Lexakai &nbsp; <img src="http://www.lexakai.org/images/lexakai-64.png" srcset="http://www.lexakai.org/images/lexakai-64-2x.png 2x"/>
+# Lexakai &nbsp; <img src="http://www.lexakai.org/images/lexakai-64.png" srcset="http://www.lexakai.org/images/lexakai-64-2x.png 2x"/>
 
 Lexakai is a command line tool used to create UML diagrams and markdown documentation indexes.
 
@@ -41,7 +41,7 @@ Lexakai is a command line tool used to create UML diagrams and markdown document
 [**Package Diagrams**](#package-diagrams)  
 [**Javadoc**](#javadoc)  
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Summary <a name = "summary"></a>
 
@@ -50,33 +50,33 @@ Lexakai is a command line tool used to create UML diagrams and markdown document
 Creates documentation indexes and UML diagrams from the source code of each maven or gradle project discovered recursively from the root
 folder(s) given as argument(s).
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Example <a name = "example"></a>
 
 For an example of Lexakai created documentation see [KivaKit](https://github.com/Telenav/kivakit).
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Download Executable JAR <a name = "download"></a>&nbsp; ![](http://www.kivakit.org/images/down-arrow-32.png)
 
 [Lexakai 0.9.4](https://www.lexakai.org/builds/lexakai-0.9.4.jar)
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Source Code <a name = "source-code"></a>
 
 [GitHub Telenav/lexakai](https://github.com/Telenav/lexakai)
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Creating Basic UML Package Diagrams <a name = "creating-basic-uml-package-diagrams"></a>&nbsp; ![](http://www.kivakit.org/images/box-32.png)
 
 Lexakai automatically creates basic package diagrams for all public types without further configuration.
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
-### Custom UML Diagrams <a name = "custom-uml-diagrams"></a>&nbsp; &nbsp; ![](http://www.kivakit.org/images/diagram-32.png)
+### Custom UML Diagrams <a name = "custom-uml-diagrams"></a>&nbsp; &nbsp; ![](http://www.kivakit.org/images/diagram-40.png)
 
 To create a set of one or more custom diagrams for a project, annotations can be used from this project:
 
@@ -103,7 +103,7 @@ used in more than one diagram, by specifying more than one
 The preferred location for diagram marker interfaces is in the sub-package *project.lexakai.diagrams*, and they should be prefixed with *
 Diagram* to make their use clear.
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Grouping Methods in Class Diagrams <a name = "grouping-methods-in-class-diagrams"></a>&nbsp; ![](http://www.kivakit.org/images/set-32.png)
 
@@ -117,7 +117,7 @@ For example:
 could be used to label all the configuration-related methods in a type. Multiple *@UmlMethodGroup*
 annotations can be added to specify that a method should be shown in more than one group.
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Automatic Method Groups <a name = "automatic-method-groups"></a>&nbsp;![](http://www.kivakit.org/images/gears-32.png)
 
@@ -127,7 +127,7 @@ most likely belongs. When the guess is inaccurate, or no guess is made, an *@Uml
 result. The set of patterns that are used to determine automatic groups is in a file called *lexakai.groups* in the documentation folder.
 This file can be customized for a particular project.
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### UML Associations <a name = "uml-associations"></a>&nbsp; ![](http://www.kivakit.org/images/right-arrow-32.png)
 
@@ -140,19 +140,19 @@ type to the type of the member. Similar annotations are available for field aggr
 explicit relation of this type can be made specific to a particular diagram with the *diagram* parameter. Multiple *@UmlRelation* tags can
 be applied to a type.
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Excluding Types And Members <a name = "excluding-types-and-members"></a>&nbsp;![](http://www.kivakit.org/images/no-32.png)
 
 Methods and fields can be excluded entirely by labeling them with *@UmlExcludeMember*.
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Non-Public Apis <a name = "non-public-apis"></a>
 
 *@UmlNotPublicApi* marks a type or member as private even if it is not actually private.
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Annotation Summary <a name = "annotation-summary"></a>&nbsp; ![](http://www.kivakit.org/images/annotation-32.png)
 
@@ -175,7 +175,7 @@ Methods and fields can be excluded entirely by labeling them with *@UmlExcludeMe
 - *@UmlAggregation* - adds a UML aggregation association from the enclosing type to the annotated field type
 - *@UmlComposition* - adds a UML composition association from the enclosing type to the annotated field type
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Configuration <a name = "configuration"></a>&nbsp; ![](http://www.kivakit.org/images/tools-32.png)
 
@@ -202,7 +202,7 @@ example:
 
 refers to the diagram title specified by the key *diagram-my-project* in the *lexakai.properties* file.
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Readme Generation and Updating <a name = "readme-generation-and-updating"></a>&nbsp; ![](http://www.kivakit.org/images/pencil-32.png)
 
@@ -220,7 +220,7 @@ which is the style used in the KivaKit.
 Any text between the markdown comments *start-user-text* and *end-user-text* will be preserved, allowing additional documentation to be
 maintained.
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Custom README Templates
 
@@ -228,7 +228,7 @@ The first run of Lexakai on a project will create two default templates in the *
 one for parent projects (projects with sub-projects). These template files can be modified to produce custom output. To revert to the
 default templates, simply remove them and run Lexakai again.
 
-![](http://www.kivakit.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 <sub>© 2011-2021 [Telenav](http://telenav.com), Inc. Licensed under [Apache License, Version 2.0](../LICENSE).</sub>
 <sub>This documentation was generated by [Lexakai](https://telenav.github.io/lexakai/) on 2021.04.02. UML diagrams courtesy of
