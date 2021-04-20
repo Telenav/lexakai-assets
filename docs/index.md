@@ -69,6 +69,10 @@ folder(s) given as argument(s).
 | Code | [GitHub](https://github.com/Telenav/lexakai) |
 | Checkout | `git clone https://github.com/Telenav/lexakai.git` |
 
+<p>
+<br/>
+</p>
+
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Download Executable JAR <a name = "download"></a>&nbsp; ![](http://www.kivakit.org/images/down-arrow-32.png)
