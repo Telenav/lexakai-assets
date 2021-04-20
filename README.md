@@ -13,7 +13,7 @@
 
 <p></p>
 
-<img src="https://www.lexakai.org/images/lexakai-backgroung-1024.png" srcset="https://www.lexakai.org/images/lexakai-background-1024-2x.png 2x"/>
+<img src="https://www.lexakai.org/images/lexakai-background-1024.png" srcset="https://www.lexakai.org/images/lexakai-background-1024-2x.png 2x"/>
 
 # lexakai-data &nbsp; <img src="https://www.lexakai.org/images/lexakai-64.png" srcset="https://www.lexakai.org/images/lexakai-64-2x.png 2x"/>
 
