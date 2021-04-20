@@ -133,7 +133,6 @@
         --(constructors)--
         +LexakaiProjectFolders(LexakaiProject, Folder, Folder, Folder)
         --(filesystem)--
-        +Folder images()
         +Folder output()
         +Folder outputDiagrams()
         +Folder outputDocumentation()
