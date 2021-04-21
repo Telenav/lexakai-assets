@@ -46,7 +46,7 @@ Lexakai is a command line tool used to create UML diagrams and markdown document
 
 *The palest ink is better than the best memory.*
 
-&nbsp; &nbsp; &nbsp; &nbsp; — *Chinese proverb*
+&nbsp; &nbsp; &nbsp; &mdash; Chinese proverb
 
 *Lexakai* - from lexis (greek for *word*) and kai (hawaiian for *ocean*).
 
