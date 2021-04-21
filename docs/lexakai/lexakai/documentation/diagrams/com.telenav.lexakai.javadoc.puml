@@ -1,11 +1,11 @@
 @startuml
 
-    !include ../lexakai/lexakai.theme
-    
+    !include ../../../../../../lexakai/documentation/lexakai/lexakai.theme
+
     title "com.telenav.lexakai.javadoc"
-    
+
     interface Comparable
-    
+
     Comparable <|-- JavadocCoverage
     class JavadocCoverage
     {
@@ -25,6 +25,6 @@
         --(math)--
         +Percent projectCoverage()
     }
-    
+
 @enduml
 

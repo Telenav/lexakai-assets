@@ -1,9 +1,9 @@
 @startuml
 
-    !include ../lexakai/lexakai.theme
-    
+    !include ../../../../../../lexakai/documentation/lexakai/lexakai.theme
+
     title "lexakai"
-    
+
     artifact kryo
     artifact minlog
     artifact reflectasm
@@ -85,5 +85,5 @@
     lexakai --> lexakai_annotations
     lexakai_annotations --> kivakit_build_metadata
     reflectasm --> asm
-    
+
 @enduml

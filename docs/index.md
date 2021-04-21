@@ -45,6 +45,11 @@ Lexakai is a command line tool used to create UML diagrams and markdown document
 
 ### Summary <a name = "summary"></a>
 
+“The palest ink is better than the best memory.”
+
+&nbsp; &nbsp; &nbsp; &nbsp; — *Chinese proverb*
+
+
 *Lexakai* - from lexis (greek for 'word') and kai (hawaiian for 'ocean').
 
 Creates documentation indexes and UML diagrams from the source code of each maven or gradle project discovered recursively from the root
