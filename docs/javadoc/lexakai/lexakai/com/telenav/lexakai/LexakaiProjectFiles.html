@@ -27,7 +27,7 @@
     catch(err) {
     }
 //-->
-var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10};
+var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -171,27 +171,42 @@ extends java.lang.Object</pre>
 <tbody>
 <tr class="altColor" id="i0">
 <td class="colFirst"><code>com.telenav.kivakit.core.filesystem.File</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#outputLexakaiProperties()">outputLexakaiProperties</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#lexakaiGroups()">lexakaiGroups</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor" id="i1">
 <td class="colFirst"><code>com.telenav.kivakit.core.filesystem.File</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#outputLexakaiSettings()">outputLexakaiSettings</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#lexakaiProperties()">lexakaiProperties</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="altColor" id="i2">
 <td class="colFirst"><code>com.telenav.kivakit.core.filesystem.File</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#readme()">readme</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#lexakaiProperties(java.lang.String)">lexakaiProperties</a></span>&#8203;(java.lang.String&nbsp;artifactId)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor" id="i3">
 <td class="colFirst"><code>com.telenav.kivakit.core.filesystem.File</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#readMeTemplate()">readMeTemplate</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#lexakaiSettings()">lexakaiSettings</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="altColor" id="i4">
 <td class="colFirst"><code>com.telenav.kivakit.core.filesystem.File</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#sourceProjectProperties()">sourceProjectProperties</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#lexakaiTheme()">lexakaiTheme</a></span>()</code></th>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="rowColor" id="i5">
+<td class="colFirst"><code>com.telenav.kivakit.core.filesystem.File</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#projectProperties()">projectProperties</a></span>()</code></th>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="altColor" id="i6">
+<td class="colFirst"><code>com.telenav.kivakit.core.filesystem.File</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#readme()">readme</a></span>()</code></th>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="rowColor" id="i7">
+<td class="colFirst"><code>com.telenav.kivakit.core.filesystem.File</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#readMeTemplate()">readMeTemplate</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 </tbody>
@@ -240,29 +255,81 @@ extends java.lang.Object</pre>
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="outputLexakaiProperties()">
+<a id="lexakaiGroups()">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>outputLexakaiProperties</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.File&nbsp;outputLexakaiProperties()</pre>
+<h4>lexakaiGroups</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.File&nbsp;lexakaiGroups()</pre>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The lexakai.groups file for automatic method grouping</dd>
+</dl>
+</li>
+</ul>
+<a id="lexakaiProperties()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>lexakaiProperties</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.File&nbsp;lexakaiProperties()</pre>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The lexakai.properties file for this project in the output tree</dd>
 </dl>
 </li>
 </ul>
-<a id="outputLexakaiSettings()">
+<a id="lexakaiProperties(java.lang.String)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>outputLexakaiSettings</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.File&nbsp;outputLexakaiSettings()</pre>
+<h4>lexakaiProperties</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.File&nbsp;lexakaiProperties&#8203;(java.lang.String&nbsp;artifactId)</pre>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>The lexakai-settings.properties file in the output tree</dd>
+<dd>The lexakai.properties file for this project in the output tree</dd>
+</dl>
+</li>
+</ul>
+<a id="lexakaiSettings()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>lexakaiSettings</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.File&nbsp;lexakaiSettings()</pre>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The lexakai.settings file in the output tree</dd>
+</dl>
+</li>
+</ul>
+<a id="lexakaiTheme()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>lexakaiTheme</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.File&nbsp;lexakaiTheme()</pre>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The lexakai.theme file for diagrams</dd>
+</dl>
+</li>
+</ul>
+<a id="projectProperties()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>projectProperties</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.File&nbsp;projectProperties()</pre>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The project.properties file for this project, from the source tree</dd>
 </dl>
 </li>
 </ul>
@@ -282,26 +349,13 @@ extends java.lang.Object</pre>
 <a id="readme()">
 <!--   -->
 </a>
-<ul class="blockList">
+<ul class="blockListLast">
 <li class="blockList">
 <h4>readme</h4>
 <pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.File&nbsp;readme()</pre>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The readme file in the source code to update</dd>
-</dl>
-</li>
-</ul>
-<a id="sourceProjectProperties()">
-<!--   -->
-</a>
-<ul class="blockListLast">
-<li class="blockList">
-<h4>sourceProjectProperties</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.File&nbsp;sourceProjectProperties()</pre>
-<dl>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>The project.properties file for this project, from the source tree</dd>
 </dl>
 </li>
 </ul>

@@ -1,14 +1,14 @@
 @startuml
 
-    !include ../../../../../../lexakai-annotations/documentation/lexakai/lexakai.theme
-
+    !include lexakai.theme
+    
     title "com.telenav.lexakai.annotations.associations"
-
+    
     annotation UmlAggregation
-
+    
     annotation UmlComposition
-
+    
     annotation UmlRelation
-
+    
 @enduml
 

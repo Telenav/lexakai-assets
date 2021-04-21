@@ -1,15 +1,15 @@
 @startuml
 
-    !include ../../../../../../lexakai/documentation/lexakai/lexakai.theme
-
+    !include lexakai.theme
+    
     title "com.telenav.lexakai"
-
+    
     abstract BaseRepeater
     abstract BaseLexakaiDiagram
-
+    
     interface Named
     interface Comparable
-
+    
     BaseRepeater <|-- BaseLexakaiDiagram
     abstract class BaseLexakaiDiagram
     {
@@ -17,7 +17,7 @@
         +String uml(String title)
         #void onUml(IndentingStringBuilder)
     }
-
+    
     Application <|-- Lexakai
     class Lexakai
     {
@@ -30,7 +30,7 @@
         --(filesystem)--
         +CopyMode resourceCopyMode()
     }
-
+    
     BaseLexakaiDiagram <|-- LexakaiClassDiagram
     Named <|-- LexakaiClassDiagram
     class LexakaiClassDiagram
@@ -63,7 +63,7 @@
         --(naming)--
         +boolean includesQualifiedTypeName(String typeName)
     }
-
+    
     BaseRepeater <|-- LexakaiProject
     Comparable <|-- LexakaiProject
     LexakaiProject --> LexakaiProject : "creates"
@@ -115,35 +115,39 @@
         --(read)--
         +void updateReadMe()
     }
-
+    
     class LexakaiProjectFiles
     {
         --(constructors)--
         +LexakaiProjectFiles(LexakaiProject)
         --(filesystem)--
-        +File outputLexakaiProperties()
-        +File outputLexakaiSettings()
+        +File lexakaiGroups()
+        +File lexakaiProperties()
+        +File lexakaiProperties(String artifactId)
+        +File lexakaiSettings()
+        +File lexakaiTheme()
+        +File projectProperties()
         +File readMeTemplate()
         +File readme()
-        +File sourceProjectProperties()
     }
-
+    
     class LexakaiProjectFolders
     {
         --(constructors)--
         +LexakaiProjectFolders(LexakaiProject, Folder, Folder, Folder)
         --(filesystem)--
+        +Folder diagramOutput()
+        +Folder documentationOutput()
+        +Folder lexakaiOutput()
         +Folder output()
-        +Folder outputDiagrams()
-        +Folder outputDocumentation()
-        +Folder outputLexakai()
         +Folder outputRoot()
+        +Folder project()
+        +Folder projectRelativeToRoot()
+        +Folder root()
+        +Folder settings()
         +Folder sourceCode()
-        +Folder sourceProject()
-        +Folder sourceProjectRelativeToRoot()
-        +Folder sourceRoot()
     }
-
+    
     PropertyMap <|-- LexakaiProjectProperties
     class LexakaiProjectProperties
     {
@@ -162,7 +166,7 @@
         +String outputJavadocLocation()
         +String outputJavadocLocation(UmlType)
     }
-
+    
     class LexakaiClassDiagram.Referent
     {
         --(constructors)--
@@ -171,6 +175,6 @@
         +String cardinality()
         +Type referent()
     }
-
+    
 @enduml
 

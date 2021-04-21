@@ -27,7 +27,7 @@
     catch(err) {
     }
 //-->
-var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10};
+var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -143,10 +143,10 @@ extends java.lang.Object</pre>
 </tr>
 <tbody>
 <tr class="altColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.telenav.lexakai.LexakaiProject,com.telenav.kivakit.core.filesystem.Folder,com.telenav.kivakit.core.filesystem.Folder,com.telenav.kivakit.core.filesystem.Folder)">LexakaiProjectFolders</a></span>&#8203;(<a href="LexakaiProject.html" title="class in com.telenav.lexakai">LexakaiProject</a>&nbsp;project,
-                     com.telenav.kivakit.core.filesystem.Folder&nbsp;sourceRoot,
-                     com.telenav.kivakit.core.filesystem.Folder&nbsp;sourceProject,
-                     com.telenav.kivakit.core.filesystem.Folder&nbsp;outputRootFolder)</code></th>
+<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.telenav.lexakai.LexakaiProject,com.telenav.kivakit.core.filesystem.Folder,com.telenav.kivakit.core.filesystem.Folder,com.telenav.kivakit.core.filesystem.Folder)">LexakaiProjectFolders</a></span>&#8203;(<a href="LexakaiProject.html" title="class in com.telenav.lexakai">LexakaiProject</a>&nbsp;lexakaiProject,
+                     com.telenav.kivakit.core.filesystem.Folder&nbsp;root,
+                     com.telenav.kivakit.core.filesystem.Folder&nbsp;project,
+                     com.telenav.kivakit.core.filesystem.Folder&nbsp;outputRoot)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 </tbody>
@@ -174,22 +174,22 @@ extends java.lang.Object</pre>
 <tbody>
 <tr class="altColor" id="i0">
 <td class="colFirst"><code>com.telenav.kivakit.core.filesystem.Folder</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#output()">output</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#diagramOutput()">diagramOutput</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor" id="i1">
 <td class="colFirst"><code>com.telenav.kivakit.core.filesystem.Folder</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#outputDiagrams()">outputDiagrams</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#documentationOutput()">documentationOutput</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="altColor" id="i2">
 <td class="colFirst"><code>com.telenav.kivakit.core.filesystem.Folder</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#outputDocumentation()">outputDocumentation</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#lexakaiOutput()">lexakaiOutput</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor" id="i3">
 <td class="colFirst"><code>com.telenav.kivakit.core.filesystem.Folder</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#outputLexakai()">outputLexakai</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#output()">output</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="altColor" id="i4">
@@ -199,22 +199,27 @@ extends java.lang.Object</pre>
 </tr>
 <tr class="rowColor" id="i5">
 <td class="colFirst"><code>com.telenav.kivakit.core.filesystem.Folder</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#sourceCode()">sourceCode</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#project()">project</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="altColor" id="i6">
 <td class="colFirst"><code>com.telenav.kivakit.core.filesystem.Folder</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#sourceProject()">sourceProject</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#projectRelativeToRoot()">projectRelativeToRoot</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor" id="i7">
 <td class="colFirst"><code>com.telenav.kivakit.core.filesystem.Folder</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#sourceProjectRelativeToRoot()">sourceProjectRelativeToRoot</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#root()">root</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="altColor" id="i8">
 <td class="colFirst"><code>com.telenav.kivakit.core.filesystem.Folder</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#sourceRoot()">sourceRoot</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#settings()">settings</a></span>()</code></th>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="rowColor" id="i9">
+<td class="colFirst"><code>com.telenav.kivakit.core.filesystem.Folder</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#sourceCode()">sourceCode</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 </tbody>
@@ -250,10 +255,10 @@ extends java.lang.Object</pre>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>LexakaiProjectFolders</h4>
-<pre>public&nbsp;LexakaiProjectFolders&#8203;(<a href="LexakaiProject.html" title="class in com.telenav.lexakai">LexakaiProject</a>&nbsp;project,
-                             com.telenav.kivakit.core.filesystem.Folder&nbsp;sourceRoot,
-                             com.telenav.kivakit.core.filesystem.Folder&nbsp;sourceProject,
-                             com.telenav.kivakit.core.filesystem.Folder&nbsp;outputRootFolder)</pre>
+<pre>public&nbsp;LexakaiProjectFolders&#8203;(<a href="LexakaiProject.html" title="class in com.telenav.lexakai">LexakaiProject</a>&nbsp;lexakaiProject,
+                             com.telenav.kivakit.core.filesystem.Folder&nbsp;root,
+                             com.telenav.kivakit.core.filesystem.Folder&nbsp;project,
+                             com.telenav.kivakit.core.filesystem.Folder&nbsp;outputRoot)</pre>
 </li>
 </ul>
 </li>
@@ -266,6 +271,45 @@ extends java.lang.Object</pre>
 <!--   -->
 </a>
 <h3>Method Detail</h3>
+<a id="diagramOutput()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>diagramOutput</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;diagramOutput()</pre>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The folder where diagrams are output</dd>
+</dl>
+</li>
+</ul>
+<a id="documentationOutput()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>documentationOutput</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;documentationOutput()</pre>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The folder where documentation is stored</dd>
+</dl>
+</li>
+</ul>
+<a id="lexakaiOutput()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>lexakaiOutput</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;lexakaiOutput()</pre>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The folder for lexakai output</dd>
+</dl>
+</li>
+</ul>
 <a id="output()">
 <!--   -->
 </a>
@@ -276,45 +320,6 @@ extends java.lang.Object</pre>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The output folder for this project</dd>
-</dl>
-</li>
-</ul>
-<a id="outputDiagrams()">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>outputDiagrams</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;outputDiagrams()</pre>
-<dl>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>The folder where diagrams are output</dd>
-</dl>
-</li>
-</ul>
-<a id="outputDocumentation()">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>outputDocumentation</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;outputDocumentation()</pre>
-<dl>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>The folder where documentation is stored</dd>
-</dl>
-</li>
-</ul>
-<a id="outputLexakai()">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>outputLexakai</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;outputLexakai()</pre>
-<dl>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>The folder for lexakai output</dd>
 </dl>
 </li>
 </ul>
@@ -331,55 +336,68 @@ extends java.lang.Object</pre>
 </dl>
 </li>
 </ul>
-<a id="sourceCode()">
+<a id="project()">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>sourceCode</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;sourceCode()</pre>
-<dl>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>The source folder for this project, if the <a href="LexakaiProject.html#hasSourceCode()"><code>LexakaiProject.hasSourceCode()</code></a> method returns true</dd>
-</dl>
-</li>
-</ul>
-<a id="sourceProject()">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>sourceProject</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;sourceProject()</pre>
+<h4>project</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;project()</pre>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>This project's folder in the source tree</dd>
 </dl>
 </li>
 </ul>
-<a id="sourceProjectRelativeToRoot()">
+<a id="projectRelativeToRoot()">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>sourceProjectRelativeToRoot</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;sourceProjectRelativeToRoot()</pre>
+<h4>projectRelativeToRoot</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;projectRelativeToRoot()</pre>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>This folder in the source tree for this project, relative to the root folder</dd>
 </dl>
 </li>
 </ul>
-<a id="sourceRoot()">
+<a id="root()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>root</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;root()</pre>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The root folder that Lexakai is processing</dd>
+</dl>
+</li>
+</ul>
+<a id="settings()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>settings</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;settings()</pre>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>The folder where lexakai configuration is stored in the source tree</dd>
+</dl>
+</li>
+</ul>
+<a id="sourceCode()">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
-<h4>sourceRoot</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;sourceRoot()</pre>
+<h4>sourceCode</h4>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.filesystem.Folder&nbsp;sourceCode()</pre>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>The root folder that Lexakai is processing</dd>
+<dd>The source folder for this project, if the <a href="LexakaiProject.html#hasSourceCode()"><code>LexakaiProject.hasSourceCode()</code></a> method returns true</dd>
 </dl>
 </li>
 </ul>

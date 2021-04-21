@@ -79,10 +79,10 @@ link lexakai to kivakit_core_resource--><path d="M1867.7083,90.0361 C1921.25,107
 link lexakai to kivakit_data_formats_xml--><path d="M1867.875,84.9632 C1951.9479,101.2965 2148.3021,139.432 2268.8333,162.8382 " fill="none" id="lexakai-to-kivakit_data_formats_xml" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="2274.1563,163.8799,2265.7507,157.9978,2269.044,162.8842,2264.1576,166.1774,2274.1563,163.8799" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c4721fba06555ce229e5edad851f52c1]
 link lexakai to lexakai_annotations--><path d="M1868.0625,81.0049 C1971.0729,91.1507 2251.5208,120.5153 2482.8125,160.9945 C2487.0313,161.734 2491.3542,162.5361 2495.7083,163.3799 " fill="none" id="lexakai-to-lexakai_annotations" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="2500.8333,164.3799,2492.4278,158.4978,2495.7211,163.3842,2490.8347,166.6774,2500.8333,164.3799" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[be26c057da988ac9309e1c0b6ad27a90]
 link lexakai_annotations to kivakit_build_metadata--><path d="M2578.6458,206.234 C2578.6458,222.7028 2578.6458,245.4007 2578.6458,262.9528 " fill="none" id="lexakai_annotations-to-kivakit_build_metadata" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="2578.6458,268.234,2582.8125,258.859,2578.6458,263.0257,2574.4792,258.859,2578.6458,268.234" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[338783537f3f9263e4097f5ff0c514d3]
-link reflectasm to asm--><path d="M1514.0625,528.109 C1514.0625,544.5778 1514.0625,567.2757 1514.0625,584.8278 " fill="none" id="reflectasm-to-asm" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1514.0625,590.109,1518.2292,580.734,1514.0625,584.9007,1509.8958,580.734,1514.0625,590.109" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[af47893ff69db2128ddb96e3af7f2435]
+link reflectasm to asm--><path d="M1514.0625,528.109 C1514.0625,544.5778 1514.0625,567.2757 1514.0625,584.8278 " fill="none" id="reflectasm-to-asm" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1514.0625,590.109,1518.2292,580.734,1514.0625,584.9007,1509.8958,580.734,1514.0625,590.109" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[cd476bb9dc4a8a432bac8d4e4d8542b2]
 @startuml
 
-    !include ../lexakai/lexakai.theme
+    !include lexakai.theme
     
     title "lexakai"
     

@@ -1,9 +1,9 @@
 @startuml
 
-    !include ../../../../../../lexakai/documentation/lexakai/lexakai.theme
-
+    !include lexakai.theme
+    
     title "com.telenav.lexakai.indexes"
-
+    
     class ReadMeUpdater
     {
         --(constructors)--
@@ -11,6 +11,6 @@
         --
         +void update()
     }
-
+    
 @enduml
 

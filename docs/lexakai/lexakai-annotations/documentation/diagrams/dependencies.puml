@@ -1,11 +1,11 @@
 @startuml
 
-    !include ../../../../../../lexakai-annotations/documentation/lexakai/lexakai.theme
-
+    !include lexakai.theme
+    
     title "lexakai-annotations"
-
+    
     artifact kivakit_build_metadata
     artifact lexakai_annotations
     lexakai_annotations --> kivakit_build_metadata
-
+    
 @enduml
