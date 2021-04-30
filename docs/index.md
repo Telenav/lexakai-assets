@@ -36,7 +36,7 @@ Lexakai is a command line tool used to create UML diagrams and markdown document
 [**Annotation Summary**](#annotation-summary)  
 [**Settings**](#settings)  
 [**Readme Generation and Updating**](#readme-generation-and-updating)  
-[**Preserving Text Between Updates**](#preserving-text)
+[**Preserving Text Between Updates**](#preserving-text)  
 [**Custom README Templates**](#custom-readme-templates)
 
 
