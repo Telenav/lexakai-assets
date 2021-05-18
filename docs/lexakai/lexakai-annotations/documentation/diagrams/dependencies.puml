@@ -4,8 +4,8 @@
     
     title "lexakai-annotations"
     
-    artifact kivakit_build_metadata
+    artifact cactus_build_metadata
     artifact lexakai_annotations
-    lexakai_annotations --> kivakit_build_metadata
+    lexakai_annotations --> cactus_build_metadata
     
 @enduml

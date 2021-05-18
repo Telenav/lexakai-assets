@@ -1,4 +1,3 @@
-
 <a href="https://www.lexakai.org">
 <img src="https://www.lexakai.org/images/web-32.png" srcset="https://www.lexakai.org/images/web-32-2x.png 2x"/>
 </a>
@@ -34,4 +33,4 @@ This project contains binary data and applications used by Lexakai.
 
 <img src="https://www.kivakit.org/images/horizontal-line-512.png" srcset="https://www.kivakit.org/images/horizontal-line-512-2x.png 2x"/>
 
-<sub>Copyright 2011-2021 [Telenav](http://telenav.com), Inc. Licensed under [Apache License, Version 2.0](LICENSE)</sub>
+<sub>Copyright 2011-2021 [Telenav](https://telenav.com), Inc. Licensed under [Apache License, Version 2.0](LICENSE)</sub>
