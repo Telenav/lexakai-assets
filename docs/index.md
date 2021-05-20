@@ -81,7 +81,7 @@ Lexakai creates documentation indexes and UML diagrams from the source code of e
 
 2. Download Lexakai
 
-   [**Lexakai 0.9.5-alpha-SNAPSHOT**](https://www.lexakai.org/builds/lexakai-0.9.5-alpha-SNAPSHOT.jar) &nbsp; ![](https://www.kivakit.org/images/down-arrow-32.png)
+   [**Lexakai 0.9.6-alpha**](https://www.lexakai.org/builds/lexakai-0.9.6-alpha.jar) &nbsp; ![](https://www.kivakit.org/images/down-arrow-32.png)
 
 
 3. Run Lexakai with *java -jar*

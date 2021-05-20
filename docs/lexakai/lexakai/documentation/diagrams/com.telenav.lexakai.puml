@@ -74,7 +74,6 @@
         --
         +boolean automaticMethodGroups()
         +LexakaiProject automaticMethodGroups(boolean automaticMethodGroups)
-        +void diagramNames(Consumer<String>)
         +void diagrams(Consumer<LexakaiClassDiagram>)
         +Pattern javadocSectionPattern()
         +LexakaiProject javadocSectionPattern(Pattern)
@@ -86,14 +85,12 @@
         +LexakaiProject buildPackageDiagrams(boolean packageDiagrams)
         +boolean buildPackageDiagrams()
         --(checks)--
-        +boolean hasChildProjects()
         +boolean hasSourceCode()
         --(collection)--
         +boolean addHtmlAnchors()
         +LexakaiProject addHtmlAnchors(boolean addHtmlAnchors)
         +ObjectList<LexakaiProject> childProjects()
         +ObjectList<JavadocCoverage> nestedProjectJavadocCoverage()
-        +List<TypeDeclaration<?>> typeDeclarations()
         --(filesystem)--
         +LexakaiProjectFiles files()
         +LexakaiProjectFolders folders()
