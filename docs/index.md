@@ -57,13 +57,13 @@ Lexakai creates documentation indexes and UML diagrams from the source code of e
 
 | Resource     |     Description                   |
 |--------------|-----------------------------------|
-| *Project Name* | Lexakai |
+| *Project&nbsp;Name* | Lexakai |
 | *Summary* | Lexakai creates markdown and UML from Java source code |
 | *License* | <a href="https://apache.org"><img valign="middle" src="https://www.kivakit.org/images/feather.png" srcset="https://www.kivakit.org/images/feather-2x.png 2x"/></a> &nbsp; [Apache License, Version 2.0](LICENSE) |
-| *Javadoc Coverage* | <img src="https://www.kivakit.org/images/meter-50-96.png" srcset="https://www.kivakit.org/images/meter-50-96-2x.png 2x"/> |
+| *Javadoc&nbsp;Coverage* | <img src="https://www.kivakit.org/images/meter-50-96.png" srcset="https://www.kivakit.org/images/meter-50-96-2x.png 2x"/> |
 | *GitHub* | [GitHub project home page](https://github.com/Telenav/lexakai) |
 | *Code* | `git clone git@github.com:Telenav/lexakai.git` |
-| *Project Lead* | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com) |
+| *Project&nbsp;Lead* | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com) |
 | *Administrator* | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com) |
 | *Email* | [lexakai@telenav.com](mailto:jonathanl@telenav.com) |
 | *Chat* | [Zulip](https://lexakai.zulip.com) |
