@@ -49,7 +49,8 @@ Lexakai is a command line tool used to create UML diagrams and markdown document
 
 *Lexakai* - from lexis (greek for *word*) and kai (hawaiian for *ocean*).
 
-Lexakai creates documentation indexes and UML diagrams from the source code of each maven or gradle project discovered recursively from the root folder(s) given as argument(s).
+Lexakai creates documentation indexes and UML diagrams from the source code of each maven or gradle
+project discovered recursively from the root folder(s) given as argument(s).
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
@@ -58,6 +59,7 @@ Lexakai creates documentation indexes and UML diagrams from the source code of e
 | Resource     |     Description                   |
 |--------------|-----------------------------------|
 | Project Name | Lexakai |
+| License | <a href="https://apache.org"><img valign="middle" src="https://www.kivakit.org/images/feather.png" srcset="https://www.kivakit.org/images/feather-2x.png 2x"/></a> &nbsp; [Apache License, Version 2.0](LICENSE) |
 | Summary | Lexakai creates markdown and UML from Java source code |
 | Javadoc Coverage |  <!-- <img src="https://www.kivakit.org/images/meter-50-96.png" srcset="https://www.kivakit.org/images/meter-50-96-2x.png 2x"/> --> <img src="https://www.kivakit.org/images/meter-50-96.png" srcset="https://www.kivakit.org/images/meter-50-96-2x.png 2x"/><!-- end --> |
 | Lead | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com) |
@@ -81,7 +83,9 @@ Lexakai creates documentation indexes and UML diagrams from the source code of e
 
 2. Download Lexakai
 
-   [**Lexakai 0.9.7-alpha**](https://repo1.maven.org/maven2/com/telenav/lexakai/lexakai/0.9.7-alpha/lexakai-0.9.7-alpha.jar) &nbsp; ![](https://www.kivakit.org/images/down-arrow-32.png)
+   [**Lexakai
+   0.9.7-alpha**](https://repo1.maven.org/maven2/com/telenav/lexakai/lexakai/0.9.7-alpha/lexakai-0.9.7-alpha.jar)
+   &nbsp; ![](https://www.kivakit.org/images/down-arrow-32.png)
 
 3. Run Lexakai with *java -jar*
 
@@ -98,13 +102,15 @@ Examples of Lexakai documentation:
 
 ### Creating Basic UML Package Diagrams <a name = "creating-basic-uml-package-diagrams"></a>&nbsp; ![](https://www.kivakit.org/images/box-32.png)
 
-Lexakai automatically creates basic package diagrams for all public types without further configuration.
+Lexakai automatically creates basic package diagrams for all public types without further
+configuration.
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Custom UML Diagrams <a name = "custom-uml-diagrams"></a>&nbsp; &nbsp; ![](https://www.kivakit.org/images/diagram-40.png)
 
-To create a set of one or more custom diagrams for a project, annotations can be used from this project:
+To create a set of one or more custom diagrams for a project, annotations can be used from this
+project:
 
     <dependency>
         <groupId>com.telenav.lexakai</groupId>
@@ -112,27 +118,31 @@ To create a set of one or more custom diagrams for a project, annotations can be
         <version>0.9.3</version>
     </dependency>
 
-A class, annotation, enum or interface annotated with *@UmlClassDiagram(diagram = [marker-interface].class)*, where *[marker-interface]*
+A class, annotation, enum or interface annotated with *@UmlClassDiagram(diagram = [marker-interface]
+.class)*, where *[marker-interface]*
 extends the interface *UmlDiagramIdentifier*, will be included in the specified diagram.
 
 For example, a type annotated with:
 
     @UmlClassDiagram(diagram = DiagramMapServer.class)
 
-will be included in the diagram *diagram-map-server* (the lowercase, hyphenated name derived from the marker interface name). A type can be used in more than one diagram, by specifying more than one
+will be included in the diagram *diagram-map-server* (the lowercase, hyphenated name derived from
+the marker interface name). A type can be used in more than one diagram, by specifying more than one
 *@UmlClassDiagram* annotation:
 
     @UmlClassDiagram(diagram = DiagramMapServer.class)
     @UmlClassDiagram(diagram = DiagramServers.class)
 
-The preferred location for diagram marker interfaces is in the sub-package *project.lexakai.diagrams*, and they should be prefixed with *
+The preferred location for diagram marker interfaces is in the sub-package *
+project.lexakai.diagrams*, and they should be prefixed with *
 Diagram* to make their use clear.
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Grouping Methods in Class Diagrams <a name = "grouping-methods-in-class-diagrams"></a>&nbsp; ![](https://www.kivakit.org/images/set-32.png)
 
-Groups of methods can be specified using the *@UmlMethodGroup* annotation. Method groups will be given labeled separators in class diagrams, making the list of methods easier to understand.
+Groups of methods can be specified using the *@UmlMethodGroup* annotation. Method groups will be
+given labeled separators in class diagrams, making the list of methods easier to understand.
 
 For example:
 
@@ -145,17 +155,30 @@ annotations can be added to specify that a method should be shown in more than o
 
 ### Automatic Method Groups <a name = "automatic-method-groups"></a>&nbsp;![](https://www.kivakit.org/images/gears-32.png)
 
-The *@UmlMethodGroup* annotation can be avoided if the switch *-automatic-method-groups* is set to *true*
-(which is the default). In this case, the best guess will be made based on method name and parameter patterns as to which group a method most likely belongs. When the guess is inaccurate, or no guess is made, an *@UmlMethodGroup* annotation can be applied to correct the result. The set of patterns that are used to determine automatic groups is in a file called *lexakai.groups* in the Lexakai settings folder. This file can be customized for a particular project. An explicit annotation can be used to override any automatic group assignment(s) for a method.
+The *@UmlMethodGroup* annotation can be avoided if the switch *-automatic-method-groups* is set to *
+true*
+(which is the default). In this case, the best guess will be made based on method name and parameter
+patterns as to which group a method most likely belongs. When the guess is inaccurate, or no guess
+is made, an *@UmlMethodGroup* annotation can be applied to correct the result. The set of patterns
+that are used to determine automatic groups is in a file called *lexakai.groups* in the Lexakai
+settings folder. This file can be customized for a particular project. An explicit annotation can be
+used to override any automatic group assignment(s) for a method.
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### UML Associations <a name = "uml-associations"></a>&nbsp; ![](https://www.kivakit.org/images/right-arrow-32.png)
 
-Patterns in the names of types, fields and methods are used to try to deduce UML associations. The annotation *@UmlRelation* can be used to override this guess with an explicit relation if the association was not be deduced, or it was deduced incorrectly.
+Patterns in the names of types, fields and methods are used to try to deduce UML associations. The
+annotation *@UmlRelation* can be used to override this guess with an explicit relation if the
+association was not be deduced, or it was deduced incorrectly.
 
-If the annotation *@UmlRelation(label = \"*label*\")* is applied to a method or field, a relation arrow will be drawn from the enclosing type to the type of the member. Similar annotations are available for field aggregation (*@UmlAggregation*) and composition (*
-@UmlComposition*). If the *@UmlRelation* tag is applied to a type, it can specify a relation with a particular referent and cardinality. An explicit relation of this type can be made specific to a particular diagram with the *diagram* parameter. Multiple *@UmlRelation* tags can be applied to a type.
+If the annotation *@UmlRelation(label = \"*label*\")* is applied to a method or field, a relation
+arrow will be drawn from the enclosing type to the type of the member. Similar annotations are
+available for field aggregation (*@UmlAggregation*) and composition (*
+@UmlComposition*). If the *@UmlRelation* tag is applied to a type, it can specify a relation with a
+particular referent and cardinality. An explicit relation of this type can be made specific to a
+particular diagram with the *diagram* parameter. Multiple *@UmlRelation* tags can be applied to a
+type.
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
@@ -189,14 +212,20 @@ Methods and fields can be excluded entirely by labeling them with *@UmlExcludeMe
 #### Associations
 
 - *@UmlRelation* - adds a labeled UML relation from the enclosing type to the annotated member type
-- *@UmlAggregation* - adds a UML aggregation association from the enclosing type to the annotated field type
-- *@UmlComposition* - adds a UML composition association from the enclosing type to the annotated field type
+- *@UmlAggregation* - adds a UML aggregation association from the enclosing type to the annotated
+  field type
+- *@UmlComposition* - adds a UML composition association from the enclosing type to the annotated
+  field type
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Settings <a name = "settings"></a>&nbsp; ![](https://www.kivakit.org/images/tools-32.png)
 
-Each root project that Lexakai processes must have a *documentation/lexakai* folder. This folder must contain all the settings that Lexakai uses to create documentation. When Lexakai is run for the first time, this folder will be created and populated with default settings files. Settings for individual projects can then be added to the *projects* subfolder, so the final tree looks like this:
+Each root project that Lexakai processes must have a *documentation/lexakai* folder. This folder
+must contain all the settings that Lexakai uses to create documentation. When Lexakai is run for the
+first time, this folder will be created and populated with default settings files. Settings for
+individual projects can then be added to the *projects* subfolder, so the final tree looks like
+this:
 
     + documentation
     \---+ lexakai
@@ -217,10 +246,14 @@ where these files are described as follows:
 | *lexakai.theme*     | PlantUML theme file copied to each diagram output folder |
 | *lexakai.groups*    | Patterns used to automatically group methods             |
 | *lexakai-source-readme-template.md*  | *README.md* template for projects that have source code |
-| *lexakai-project-readme-template.md* | *README.md* template for projects that have child projects |
+| *lexakai-project-readme-template.md* | *
+README.md* template for projects that have child projects |
 | *projects/[project].properties* | Markdown and UML settings for each project in the source tree |
 
-The *.theme*, *.groups* and *README.md* template files can be customized. To perform a 'factory-reset' on these resources, run Lexakai with *-overwrite-resources=true* or simply remove the files and Lexakai will re-create them. The [project] value in the table above should be the hyphenated artifact id for the project, as defined in pom.xml, such as *kivakit-core-kernel*.
+The *.theme*, *.groups* and *README.md* template files can be customized. To perform a '
+factory-reset' on these resources, run Lexakai with *-overwrite-resources=true* or simply remove the
+files and Lexakai will re-create them. The [project] value in the table above should be the
+hyphenated artifact id for the project, as defined in pom.xml, such as *kivakit-core-kernel*.
 
 #### lexakai.settings
 
@@ -236,11 +269,15 @@ This global settings file contains the following properties:
 
     project-footer                 = <sub>Copyright &#169; 2011-2021, Me</sub>
 
-These values specify the location of resources for Lexakai when it is producing links in *README.md* files. When using GitHub Pages, the folders *lexakai*, *javadoc* and *images* are normally in the *docs* folder in a documentation project and GitHub Pages is configured to share that folder with the world.
+These values specify the location of resources for Lexakai when it is producing links in *README.md*
+files. When using GitHub Pages, the folders *lexakai*, *javadoc* and *images* are normally in the *
+docs* folder in a documentation project and GitHub Pages is configured to share that folder with the
+world.
 
 #### [project].properties
 
-Each project in the source tree requires a *[project].properties* file in the *projects* folder, which looks like:
+Each project in the source tree requires a *[project].properties* file in the *projects* folder,
+which looks like:
 
     #
     # Project
@@ -257,23 +294,34 @@ Each project in the source tree requires a *[project].properties* file in the *p
     diagram-port             = Hosts, Ports and Protocols
     diagram-network-location = Network Locations
 
-The *project-title*, *project-description* and *project-icon* values will be used to populate values in the
-*README.md* templates (described above). The *project-icon* value is used as the base name of *[project-icon].png* and
-*[project-icon]-2x.png*, in order to support HiDPI displays. The *diagrams* section provides titles for individual UML diagrams. The lowercase, hyphenated name of the marker interface (as described above) is used as a key to locate the title of the diagram. For example:
+The *project-title*, *project-description* and *project-icon* values will be used to populate values
+in the
+*README.md* templates (described above). The *project-icon* value is used as the base name
+of *[project-icon].png* and
+*[project-icon]-2x.png*, in order to support HiDPI displays. The *diagrams* section provides titles
+for individual UML diagrams. The lowercase, hyphenated name of the marker interface (as described
+above) is used as a key to locate the title of the diagram. For example:
 
     @UmlClassDiagram(diagram = DiagramMyUtilities.class)
 
-refers to the diagram title specified by the key *diagram-my-utilities* in the *.properties* file for the project.
+refers to the diagram title specified by the key *diagram-my-utilities* in the *.properties* file
+for the project.
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Readme Generation and Updating <a name = "readme-generation-and-updating"></a>&nbsp; ![](https://www.kivakit.org/images/pencil-32.png)
 
-If the *-update-readme* switch is set to *true* (it is *false* by default to ensure it doesn't overwrite an existing file), then a *README.md* file will be generated or updated each time the UML diagrams are generated. This markdown file will use *project-title* as its title and insert the description *project-description* from the *[project].properties*
+If the *-update-readme* switch is set to *true* (it is *false* by default to ensure it doesn't
+overwrite an existing file), then a *README.md* file will be generated or updated each time the UML
+diagrams are generated. This markdown file will use *project-title* as its title and insert the
+description *project-description* from the *[project].properties*
 file as the project description.
 
-An index of project diagrams is updated along with an index of the Javadoc (which should be available at
-*lexakai-javadoc-location*) for all types. Sections of documentation in the Javadoc can also be indexed based on the pattern specified by the switch *-javadoc-section-pattern*. By default, this pattern is:
+An index of project diagrams is updated along with an index of the Javadoc (which should be
+available at
+*lexakai-javadoc-location*) for all types. Sections of documentation in the Javadoc can also be
+indexed based on the pattern specified by the switch *-javadoc-section-pattern*. By default, this
+pattern is:
 
     <p><b>section-title</b></p>
 
@@ -281,17 +329,23 @@ which is the style used in KivaKit, but any regular expression pattern can be su
 
 ### Preserving Text Between Updates
 
-Any text between the markdown comments *start-user-text* and *end-user-text* will be preserved, allowing additional documentation to be maintained.
+Any text between the markdown comments *start-user-text* and *end-user-text* will be preserved,
+allowing additional documentation to be maintained.
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Custom README Templates <a name = "custom-readme-templates"></a>
 
-The first run of Lexakai on a project will create two default templates in the *documentation/lexakai* settings folder one for projects with source code and one for parent projects (projects with sub-projects). These template files can be modified to produce custom output. To revert to the default templates, simply remove them and run Lexakai again.
+The first run of Lexakai on a project will create two default templates in the *
+documentation/lexakai* settings folder one for projects with source code and one for parent
+projects (projects with sub-projects). These template files can be modified to produce custom
+output. To revert to the default templates, simply remove them and run Lexakai again.
 
 <img src="https://www.kivakit.org/images/horizontal-line-512.png" srcset="https://www.kivakit.org/images/horizontal-line-512-2x.png 2x"/>
 
-<sub>© 2011-2021 [Telenav](https://telenav.com), Inc. Licensed under [Apache License, Version 2.0](../LICENSE).</sub>  
-<sub>This documentation was generated by [Lexakai](https://telenav.github.io/lexakai/) on 2021.04.02. UML diagrams courtesy of
+<sub>© 2011-2021 [Telenav](https://telenav.com), Inc. Licensed
+under [Apache License, Version 2.0](../LICENSE).</sub>  
+<sub>This documentation was generated by [Lexakai](https://telenav.github.io/lexakai/) on
+2021.04.02. UML diagrams courtesy of
 [PlantUML](https://plantuml.com).</sub>
 
