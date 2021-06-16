@@ -62,7 +62,7 @@ Lexakai creates documentation indexes and UML diagrams from the source code of e
 | *License* | <a href="https://apache.org"><img valign="middle" src="https://www.kivakit.org/images/feather.png" srcset="https://www.kivakit.org/images/feather-2x.png 2x"/></a> &nbsp; [Apache License, Version 2.0](LICENSE) |
 | *Javadoc&nbsp;Coverage* | <img src="https://www.kivakit.org/images/meter-50-96.png" srcset="https://www.kivakit.org/images/meter-50-96-2x.png 2x"/> |
 | *GitHub* | [GitHub project home page](https://github.com/Telenav/lexakai) |
-| *Code* | `git clone git@github.com:Telenav/lexakai.git` |
+| *Code* | `git clone https://github.com/Telenav/lexakai.git` |
 | *Project&nbsp;Lead* | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com) |
 | *Administrator* | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com) |
 | *Email* | [lexakai@telenav.com](mailto:jonathanl@telenav.com) |
