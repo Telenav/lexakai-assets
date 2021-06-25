@@ -23,8 +23,10 @@ Lexakai is a command line tool used to create UML diagrams and markdown document
 
 [**Summary**](#summary)  
 [**Project Resources**](#project-resources)  
-[**Download Executable JAR**](#download-executable-jar)  
+[**Setup**](#setup)  
+[**Configuring Your Project**](#configuring)  
 [**Examples**](#examples)  
+[**Readme Generation and Updating**](#readme-generation-and-updating)  
 [**Creating Basic UML Package Diagrams**](#creating-basic-uml-package-diagrams)  
 [**Custom UML Diagrams**](#custom-uml-diagrams)  
 [**Grouping Methods in Class Diagrams**](#grouping-methods-in-class-diagrams)  
@@ -33,11 +35,6 @@ Lexakai is a command line tool used to create UML diagrams and markdown document
 [**Excluding Types And Members**](#excluding-types-and-members)  
 [**Non-Public Apis**](#non-public-apis)  
 [**Annotation Summary**](#annotation-summary)  
-[**Settings**](#settings)  
-[**Readme Generation and Updating**](#readme-generation-and-updating)  
-[**Preserving Text Between Updates**](#preserving-text)  
-[**Custom README Templates**](#custom-readme-templates)
-
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
@@ -49,14 +46,14 @@ Lexakai is a command line tool used to create UML diagrams and markdown document
 
 *Lexakai* - from lexis (greek for *word*) and kai (hawaiian for *ocean*).
 
-Lexakai creates documentation indexes and UML diagrams from the source code of each maven or gradle project discovered recursively from the root folder(s) given as argument(s).
+Lexakai creates and updates UML diagrams and *README.md* documentation indexes from the source code of each maven project discovered recursively from the root folder(s) given as argument(s).
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Project Resources <a name = "project-resources"></a> &nbsp; <img src="https://www.kivakit.org/images/water-32.png" srcset="https://www.kivakit.org/images/water-32-2x.png 2x"/>
 
-| Resource     |     Description                   |
-|--------------|-----------------------------------|
+| Resource | Description |
+|---------|-----------|
 | *Project&nbsp;Name* | Lexakai |
 | *Summary* | Lexakai creates markdown and UML from Java source code |
 | *License* | <a href="https://apache.org"><img valign="middle" src="https://www.kivakit.org/images/feather.png" srcset="https://www.kivakit.org/images/feather-2x.png 2x"/></a> &nbsp; [Apache License, Version 2.0](LICENSE) |
@@ -74,18 +71,110 @@ Lexakai creates documentation indexes and UML diagrams from the source code of e
 <br/>
 </p>
 
-<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
-
+ <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
+ 
 ### Setup <a name = "setup"></a> &nbsp; <a name = "project-resources"></a> &nbsp; <img src="https://www.kivakit.org/images/box-32.png" srcset="https://www.kivakit.org/images/box-32-2x.png 2x"/>
 
-1. Install [GraphViz](https://plantuml.com/graphviz-dot) for generating SVG files
+*At this time, Lexakai is limited to Maven projects only.*
 
-2. Download Lexakai
-
-   [**Lexakai 0.9.7-alpha**](https://repo1.maven.org/maven2/com/telenav/lexakai/lexakai/0.9.7-alpha/lexakai-0.9.7-alpha.jar)
+1. Install Java 11 or later
+2. Install [GraphViz](https://plantuml.com/graphviz-dot) for generating SVG files
+3. Download [**Lexakai 0.9.7-alpha**](https://repo1.maven.org/maven2/com/telenav/lexakai/lexakai/0.9.7-alpha/lexakai-0.9.7-alpha.jar)
    &nbsp; ![](https://www.kivakit.org/images/down-arrow-32.png)
+4. Run Lexakai from your project root with:
 
-3. Run Lexakai with *java -jar*
+    java -jar lexakai-*[version]*.jar .
+
+5. Configure Lexakai for your project as described in the next section
+6. See [Readme Generation and Updating](#readme-generation-and-updating) to begin creating or updating README.md indexes in your projects
+
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
+
+### Configuring Your Project <a name = "configuring"></a>&nbsp; ![](https://www.kivakit.org/images/tools-32.png)
+
+#### Creating project.properties files
+Lexakai requires each project in your source tree to have a *project.properties* file. For projects with source code, this should be located in *src/main/java* and for projects with children, it should be located in the project folder itself. This contents of this file should look like this:
+
+    project-name = My Project
+    project-version = 0.9.0-alpha
+    project-group-id = com.mydomain
+    project-artifact-id = myproject
+
+These *project.properties* files can be created and maintained by hand, or they can be [generated during the build process with the ant-run plugin](antrun.md).
+
+#### The Lexakai settings folder
+When Lexakai is run for the first time (in step 4, above), it will create a *documentation/lexakai* folder in the root of your project. This folder will be populated with default settings files similar to this:
+
+    + documentation
+    \---+ lexakai
+        |     lexakai.settings
+        |     lexakai.theme
+        |     lexakai.groups
+        |     lexakai-source-readme-template.md
+        |     lexakai-project-readme-template.md
+        \---+ projects
+                  my-project.properties
+                  my-project-sub-project.properties
+
+where the files in this tree are described as follows:
+
+| Settings File     |     Description                                          |
+|-------------------|----------------------------------------------------------|
+| *lexakai.settings*  | Global settings for all projects  |
+| *lexakai.theme*     | PlantUML theme file |
+| *lexakai.groups*    | Patterns used to automatically group methods  |
+| *lexakai-source-readme-template.md*  | *README.md* template for projects that have source code |
+| *lexakai-project-readme-template.md* | *README.md* template for projects that have child projects |
+| *projects/[project-artifact-id].properties* | Settings for each project in the source tree |
+
+The *.theme*, *.groups* and *README.md* template files can be customized but don't need to be. To perform a 'factory-reset' on these resources, run Lexakai with *-overwrite-resources=true* or simply remove the files and Lexakai will re-create them.
+
+#### The lexakai.settings file
+
+The Lexakai global settings file contains the following properties:
+
+    #
+    # Locations of resources linked to from README.md files
+    #
+
+    lexakai-documentation-location = https://www.mydomain.org/lexakai
+    lexakai-javadoc-location       = https://www.mydomain.org/javadoc
+    lexakai-images-location        = https://www.mydomain.org/images
+
+    project-footer                 = <sub>Copyright &#169; 2011-2021, Me</sub>
+
+These values specify the location of resources for Lexakai when it is creating or updating links in *README.md* files, as well as the footer text to use for each file. 
+
+When using GitHub Pages, the folders *lexakai*, *javadoc* and *images* are normally in the *docs* folder and GitHub Pages is configured to share that folder with the world. Your domain should be mapped to the appropriate *github.io* subdomain, like *mydomain.github.io* so that the *https* resource roots in *lexakai.settings* resolve to the files in *docs/lexakai*, *docs/javadoc* and *docs/images*. In your *docs* folder, the CNAME file should also contain the name of your domain, like:
+
+    www.mydomain.org 
+
+See the GitHub documentation for more information on how to use GitHub Pages.
+
+#### The projects folder
+
+Each project in the source tree requires a *[project].properties* file in the *projects* folder, which looks like:
+
+    #
+    # Project
+    #
+
+    project-title            = kivakit-core-network-core
+    project-description      = This module provides networking functionality.
+    project-icon             = nucleus-32
+    
+    #
+    # Diagrams
+    #
+
+    diagram-port             = Hosts, Ports and Protocols
+    diagram-network-location = Network Locations
+
+The *project-title*, *project-description* and *project-icon* values will be used to populate values in the *README.md* templates (described above). The *project-icon* value is used as the base name of *[project-icon].png* and *[project-icon]-2x.png*, in order to support HiDPI displays. The *diagrams* section provides titles for individual UML diagrams. The lowercase, hyphenated name of the marker interface (as described above) is used as a key to locate the title of the diagram. For example:
+
+    @UmlClassDiagram(diagram = DiagramMyUtilities.class)
+
+refers to the diagram title specified by the key *diagram-my-utilities* in the *.properties* file for the project.
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
@@ -95,6 +184,27 @@ Examples of Lexakai documentation:
 
 - [KivaKit](https://github.com/Telenav/kivakit)
 - [Lexakai](https://github.com/Telenav/lexakai)
+
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
+
+### Readme Generation and Updating <a name = "readme-generation-and-updating"></a>&nbsp; ![](https://www.kivakit.org/images/pencil-32.png)
+
+If the *-update-readme* switch is set to *true* (it is *false* by default to ensure it doesn't overwrite an existing file), then a *README.md* file will be generated or updated each time the UML diagrams are generated. This markdown file will use *project-title* as its title and insert the description *project-description* from the *[project].properties* file as the project description.
+
+An index of project diagrams is updated along with an index of the Javadoc (which should be available at *lexakai-javadoc-location*) for all types. Sections of documentation in the Javadoc can also be indexed based on the pattern specified by the switch *-javadoc-section-pattern*. By default, this pattern is:
+
+    <p><b>section-title</b></p>
+
+which is the style used in KivaKit, but any regular expression pattern can be substituted.
+
+#### Preserving Text Between Updates
+
+Any text between the markdown comments *start-user-text* and *end-user-text* will be preserved, allowing additional documentation to be maintained.
+
+#### Custom README Templates <a name = "custom-readme-templates"></a>
+
+The first run of Lexakai on a project will create two default templates in the *
+documentation/lexakai* settings folder one for projects with source code and one for parent projects (projects with sub-projects). These template files can be modified to produce custom output. To revert to the default templates, simply remove them and run Lexakai again.
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
@@ -196,108 +306,6 @@ Methods and fields can be excluded entirely by labeling them with *@UmlExcludeMe
 - *@UmlRelation* - adds a labeled UML relation from the enclosing type to the annotated member type
 - *@UmlAggregation* - adds a UML aggregation association from the enclosing type to the annotated field type
 - *@UmlComposition* - adds a UML composition association from the enclosing type to the annotated field type
-
-<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
-
-### Settings <a name = "settings"></a>&nbsp; ![](https://www.kivakit.org/images/tools-32.png)
-
-Each root project that Lexakai processes must have a *documentation/lexakai* folder. This folder must contain all the settings that Lexakai uses to create documentation. When Lexakai is run for the first time, this folder will be created and populated with default settings files. Settings for individual projects can then be added to the *projects* subfolder, so the final tree looks like this:
-
-    + documentation
-    \---+ lexakai
-        |     lexakai.settings
-        |     lexakai.theme
-        |     lexakai.groups
-        |     lexakai-source-readme-template.md
-        |     lexakai-project-readme-template.md
-        \---+ projects
-                  my-project.properties
-                  my-project-sub-project.properties
-
-where these files are described as follows:
-
-| Settings File     |     Description                                          |
-|-------------------|----------------------------------------------------------|
-| *lexakai.settings*  | Global settings for all projects under the root folder   |
-| *lexakai.theme*     | PlantUML theme file copied to each diagram output folder |
-| *lexakai.groups*    | Patterns used to automatically group methods             |
-| *lexakai-source-readme-template.md*  | *README.md* template for projects that have source code |
-| *lexakai-project-readme-template.md* | *
-README.md* template for projects that have child projects |
-| *projects/[project].properties* | Markdown and UML settings for each project in the source tree |
-
-The *.theme*, *.groups* and *README.md* template files can be customized. To perform a '
-factory-reset' on these resources, run Lexakai with *-overwrite-resources=true* or simply remove the files and Lexakai will re-create them. The [project] value in the table above should be the hyphenated artifact id for the project, as defined in pom.xml, such as *kivakit-core-kernel*.
-
-#### lexakai.settings
-
-This global settings file contains the following properties:
-
-    #
-    # Locations of resources linked to from README.md files
-    #
-
-    lexakai-documentation-location = https://www.lexakai.org/lexakai
-    lexakai-javadoc-location       = https://www.lexakai.org/javadoc
-    lexakai-images-location        = https://www.lexakai.org/images
-
-    project-footer                 = <sub>Copyright &#169; 2011-2021, Me</sub>
-
-These values specify the location of resources for Lexakai when it is producing links in *README.md*
-files. When using GitHub Pages, the folders *lexakai*, *javadoc* and *images* are normally in the *
-docs* folder in a documentation project and GitHub Pages is configured to share that folder with the world.
-
-#### [project].properties
-
-Each project in the source tree requires a *[project].properties* file in the *projects* folder, which looks like:
-
-    #
-    # Project
-    #
-
-    project-title            = kivakit-core-network-core
-    project-description      = This module provides core networking functionality.
-    project-icon             = nucleus-32
-    
-    #
-    # Diagrams
-    #
-
-    diagram-port             = Hosts, Ports and Protocols
-    diagram-network-location = Network Locations
-
-The *project-title*, *project-description* and *project-icon* values will be used to populate values in the
-*README.md* templates (described above). The *project-icon* value is used as the base name of *[project-icon].png* and
-*[project-icon]-2x.png*, in order to support HiDPI displays. The *diagrams* section provides titles for individual UML diagrams. The lowercase, hyphenated name of the marker interface (as described above) is used as a key to locate the title of the diagram. For example:
-
-    @UmlClassDiagram(diagram = DiagramMyUtilities.class)
-
-refers to the diagram title specified by the key *diagram-my-utilities* in the *.properties* file for the project.
-
-<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
-
-### Readme Generation and Updating <a name = "readme-generation-and-updating"></a>&nbsp; ![](https://www.kivakit.org/images/pencil-32.png)
-
-If the *-update-readme* switch is set to *true* (it is *false* by default to ensure it doesn't overwrite an existing file), then a *README.md* file will be generated or updated each time the UML diagrams are generated. This markdown file will use *project-title* as its title and insert the description *project-description* from the *[project].properties*
-file as the project description.
-
-An index of project diagrams is updated along with an index of the Javadoc (which should be available at
-*lexakai-javadoc-location*) for all types. Sections of documentation in the Javadoc can also be indexed based on the pattern specified by the switch *-javadoc-section-pattern*. By default, this pattern is:
-
-    <p><b>section-title</b></p>
-
-which is the style used in KivaKit, but any regular expression pattern can be substituted.
-
-### Preserving Text Between Updates
-
-Any text between the markdown comments *start-user-text* and *end-user-text* will be preserved, allowing additional documentation to be maintained.
-
-<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
-
-### Custom README Templates <a name = "custom-readme-templates"></a>
-
-The first run of Lexakai on a project will create two default templates in the *
-documentation/lexakai* settings folder one for projects with source code and one for parent projects (projects with sub-projects). These template files can be modified to produce custom output. To revert to the default templates, simply remove them and run Lexakai again.
 
 <img src="https://www.kivakit.org/images/horizontal-line-512.png" srcset="https://www.kivakit.org/images/horizontal-line-512-2x.png 2x"/>
 
