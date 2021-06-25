@@ -56,9 +56,9 @@ Lexakai creates and updates UML diagrams and *README.md* documentation indexes f
 The screenshots below are from the [kivakit](https://www.kivakit.org) project (first two images) and the [kivakit-application](https://github.com/Telenav/kivakit/tree/master/kivakit-application) module (second two images).
 
 <a href="https://www.lexakai.org/images/kivakit-1.png">
-<img title="kivakit(page 1)" src="https://www.lexakai.org/images/kivakit-1.png" width="100" height="238" alt="kivakit (page 1)">
+<img title="kivakit (page 1)" src="https://www.lexakai.org/images/kivakit-1.png" width="100" height="238" alt="kivakit (page 1)">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a title="kivakit(page 2)" href="https://www.lexakai.org/images/kivakit-2.png">
+<a title="kivakit (page 2)" href="https://www.lexakai.org/images/kivakit-2.png">
 <img src="https://www.lexakai.org/images/kivakit-2.png" width="100" height="238" alt="kivakit (page 2)">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a title="kivakit-application (page 1)" href="https://www.lexakai.org/images/kivakit-application-1.png">
@@ -100,7 +100,7 @@ The screenshots below are from the [kivakit](https://www.kivakit.org) project (f
 1. Install Java 11 or later
 2. Install [GraphViz](https://plantuml.com/graphviz-dot) for generating SVG files
 3. Download [**Lexakai 0.9.7-alpha**](https://repo1.maven.org/maven2/com/telenav/lexakai/lexakai/0.9.7-alpha/lexakai-0.9.7-alpha.jar)
-   &nbsp; ![](https://www.kivakit.org/images/down-arrow-32.png)
+   &nbsp; <img src="https://www.kivakit.org/images/down-arrow-32.png" srcset="https://www.kivakit.org/images/down-arrow-32-2x.png 2x"/>
 4. Run Lexakai from your project root with:
 
     java -jar lexakai-*[version]*.jar .
