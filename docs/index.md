@@ -53,18 +53,22 @@ Lexakai creates and updates UML diagrams and *README.md* documentation indexes f
 
 ### Screenshots <a name = "screenshots"></a>
 
+The screenshots below are from the [kivakit](https://www.kivakit.org) project (first two images) and the [kivakit-application](https://github.com/Telenav/kivakit/tree/master/kivakit-application) module (second two images).
+
 <a href="https://www.lexakai.org/images/kivakit-1.png">
-<img src="https://www.lexakai.org/images/kivakit-1.png" width="100" height="238" alt="kivakit (page 1)">
+<img title="kivakit(page 1)" src="https://www.lexakai.org/images/kivakit-1.png" width="100" height="238" alt="kivakit (page 1)">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.lexakai.org/images/kivakit-2.png">
+<a title="kivakit(page 2)" href="https://www.lexakai.org/images/kivakit-2.png">
 <img src="https://www.lexakai.org/images/kivakit-2.png" width="100" height="238" alt="kivakit (page 2)">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.lexakai.org/images/kivakit-application-1.png">
+<a title="kivakit-application (page 1)" href="https://www.lexakai.org/images/kivakit-application-1.png">
 <img src="https://www.lexakai.org/images/kivakit-application-1.png" width="100" height="238" alt="kivakit-application (page 1)">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.lexakai.org/images/kivakit-application-2.png">
-<img src="https://www.lexakai.org/images/kivakit-application-2.png" width="100" height="238" alt="kivakit (page 2)">
+<a title="kivakit-application (page 2)" href="https://www.lexakai.org/images/kivakit-application-2.png">
+<img src="https://www.lexakai.org/images/kivakit-application-2.png" width="100" height="238" alt="kivakit-application (page 2)">
 </a>
+
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Project Resources <a name = "project-resources"></a> &nbsp; <img src="https://www.kivakit.org/images/water-32.png" srcset="https://www.kivakit.org/images/water-32-2x.png 2x"/>
 
