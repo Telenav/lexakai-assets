@@ -22,6 +22,7 @@ Lexakai is a command line tool used to create UML diagrams and markdown document
 ### Index
 
 [**Summary**](#summary)  
+[**Screenshots**](#screenshots)  
 [**Project Resources**](#project-resources)  
 [**Setup**](#setup)  
 [**Configuring Your Project**](#configuring)  
@@ -50,7 +51,7 @@ Lexakai creates and updates UML diagrams and *README.md* documentation indexes f
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
-### Screenshots
+### Screenshots <a name = "screenshots"></a>
 
 <img src="https://www.lexakai.org/images/kivakit-1.png" width="100" height="238">
 <img src="https://www.lexakai.org/images/kivakit-2.png" width="100" height="238">
