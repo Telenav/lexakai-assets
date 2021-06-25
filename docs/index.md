@@ -50,6 +50,13 @@ Lexakai creates and updates UML diagrams and *README.md* documentation indexes f
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
+### Screenshots
+
+<img src="https://www.lexakai.org/images/kivakit-1.png" width="100" height="238">
+<img src="https://www.lexakai.org/images/kivakit-2.png" width="100" height="238">
+<img src="https://www.lexakai.org/images/kivakit-application-1.png" width="100" height="238">
+<img src="https://www.lexakai.org/images/kivakit-application-2.png" width="100" height="238">
+
 ### Project Resources <a name = "project-resources"></a> &nbsp; <img src="https://www.kivakit.org/images/water-32.png" srcset="https://www.kivakit.org/images/water-32-2x.png 2x"/>
 
 | Resource | Description |
