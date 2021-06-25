@@ -53,10 +53,18 @@ Lexakai creates and updates UML diagrams and *README.md* documentation indexes f
 
 ### Screenshots <a name = "screenshots"></a>
 
-<img src="https://www.lexakai.org/images/kivakit-1.png" width="100" height="238">
-<img src="https://www.lexakai.org/images/kivakit-2.png" width="100" height="238">
-<img src="https://www.lexakai.org/images/kivakit-application-1.png" width="100" height="238">
-<img src="https://www.lexakai.org/images/kivakit-application-2.png" width="100" height="238">
+<a href="https://www.lexakai.org/images/kivakit-1.png">
+<img src="https://www.lexakai.org/images/kivakit-1.png" width="100" height="238" alt="kivakit (page 1)">
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.lexakai.org/images/kivakit-2.png">
+<img src="https://www.lexakai.org/images/kivakit-2.png" width="100" height="238" alt="kivakit (page 2)">
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.lexakai.org/images/kivakit-application-1.png">
+<img src="https://www.lexakai.org/images/kivakit-application-1.png" width="100" height="238" alt="kivakit-application (page 1)">
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.lexakai.org/images/kivakit-application-2.png">
+<img src="https://www.lexakai.org/images/kivakit-application-2.png" width="100" height="238" alt="kivakit (page 2)">
+</a>
 
 ### Project Resources <a name = "project-resources"></a> &nbsp; <img src="https://www.kivakit.org/images/water-32.png" srcset="https://www.kivakit.org/images/water-32-2x.png 2x"/>
 
