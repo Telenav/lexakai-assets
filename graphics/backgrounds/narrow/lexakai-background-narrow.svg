@@ -18,7 +18,6 @@
       <stop offset="1" style="stop-color: rgb(255, 147, 0);"/>
     </linearGradient>
   </defs>
-  <rect x="-24.456" y="-21.631" width="571.193" height="199.002" style="fill: rgb(1, 1, 1);"/>
   <path style="fill: rgba(216, 216, 216, 0); stroke: url(#gradient-0); stroke-width: 32px; stroke-opacity: 0.63;" d="M -14.552 67.015 C 11.871 61.317 107.499 96.345 233.933 70.986 C 342.591 49.193 485.544 70.147 518.009 70.565"/>
   <path style="stroke-width: 32px; fill: url(#gradient-2); stroke: url(#gradient-3); stroke-opacity: 0.63;" d="M 520.531 57.3 C 481.397 58.359 430.84 70.389 391.714 71.478 C 350.312 72.631 261.139 67.617 175.817 62.17 C 82.505 56.214 -5.4 78.232 -21.984 78.741"/>
   <path style="fill: rgba(216, 216, 216, 0); stroke-width: 32px; stroke: url(#gradient-1); stroke-opacity: 0.63;" d="M -14.5 51.614 C -1.645 52.667 24.019 71.75 113.251 71.179 C 136.309 71.031 235.782 56.372 260.503 54.216 C 431.022 39.347 480.834 84.929 538.199 90.347"/>
