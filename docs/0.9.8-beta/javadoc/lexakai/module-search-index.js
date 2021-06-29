@@ -1,1 +1,1 @@
-moduleSearchIndex = [{"l":"lexakai"}];updateSearchResults();
+moduleSearchIndex = [];updateSearchResults();

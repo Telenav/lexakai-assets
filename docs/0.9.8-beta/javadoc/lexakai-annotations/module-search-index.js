@@ -1,1 +1,1 @@
-moduleSearchIndex = [{"l":"lexakai.annotations"}];updateSearchResults();
+moduleSearchIndex = [];updateSearchResults();

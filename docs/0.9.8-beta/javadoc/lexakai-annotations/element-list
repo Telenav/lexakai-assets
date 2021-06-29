@@ -1,4 +1,3 @@
-module:lexakai.annotations
 com.telenav.lexakai.annotations
 com.telenav.lexakai.annotations.associations
 com.telenav.lexakai.annotations.diagrams
