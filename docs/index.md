@@ -35,7 +35,7 @@ Lexakai is a command line tool used to create UML diagrams and markdown document
 [**UML Associations**](#uml-associations)  
 [**Excluding Types And Members**](#excluding-types-and-members)  
 [**Non-Public Apis**](#non-public-apis)  
-[**Annotation Summary**](#annotation-summary)  
+[**Annotation Summary**](#annotation-summary)
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
@@ -92,20 +92,28 @@ The screenshots below are from the [kivakit](https://www.kivakit.org) project (f
 </p>
 
  <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
- 
+
 ### Setup <a name = "setup"></a> &nbsp; <a name = "project-resources"></a> &nbsp; <img src="https://www.kivakit.org/images/box-32.png" srcset="https://www.kivakit.org/images/box-32-2x.png 2x"/>
 
 *At this time, Lexakai is limited to Maven projects only.*
 
 1. Install Java 11 or later
+
+
 2. Install [GraphViz](https://plantuml.com/graphviz-dot) for generating SVG files
-3. Download [**Lexakai 0.9.7-alpha**](https://repo1.maven.org/maven2/com/telenav/lexakai/lexakai/0.9.7-alpha/lexakai-0.9.7-alpha.jar)
+
+3. Download [**Lexakai 0.9.8-beta**](https://repo1.maven.org/maven2/com/telenav/lexakai/lexakai/0.9.8-beta/lexakai-0.9.8-beta.jar)
    &nbsp; <img src="https://www.kivakit.org/images/down-arrow-32.png" srcset="https://www.kivakit.org/images/down-arrow-32-2x.png 2x"/>
+
+
 4. Run Lexakai from your project root with:
 
-    java -jar lexakai-*[version]*.jar .
+       java -jar lexakai-[version].jar .
+
 
 5. Configure Lexakai for your project as described in the next section
+
+
 6. See [Readme Generation and Updating](#readme-generation-and-updating) to begin creating or updating README.md indexes in your projects
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
@@ -163,7 +171,7 @@ The Lexakai global settings file contains the following properties:
 
     project-footer                 = <sub>Copyright &#169; 2011-2021, Me</sub>
 
-These values specify the location of resources for Lexakai when it is creating or updating links in *README.md* files, as well as the footer text to use for each file. 
+These values specify the location of resources for Lexakai when it is creating or updating links in *README.md* files, as well as the footer text to use for each file.
 
 When using GitHub Pages, the folders *lexakai*, *javadoc* and *images* are normally in the *docs* folder and GitHub Pages is configured to share that folder with the world. Your domain should be mapped to the appropriate *github.io* subdomain, like *mydomain.github.io* so that the *https* resource roots in *lexakai.settings* resolve to the files in *docs/lexakai*, *docs/javadoc* and *docs/images*. In your *docs* folder, the CNAME file should also contain the name of your domain, like:
 
