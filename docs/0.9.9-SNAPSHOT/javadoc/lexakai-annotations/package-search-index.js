@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.telenav.lexakai.annotations"},{"l":"com.telenav.lexakai.annotations.associations"},{"l":"com.telenav.lexakai.annotations.diagrams"},{"l":"com.telenav.lexakai.annotations.repeaters"},{"l":"com.telenav.lexakai.annotations.visibility"}];updateSearchResults();
