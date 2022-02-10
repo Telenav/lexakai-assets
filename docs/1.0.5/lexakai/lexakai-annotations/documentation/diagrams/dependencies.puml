@@ -1,0 +1,10 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "lexakai-annotations"
+    
+    artifact lexakai_annotations
+    artifact xml_apis
+    
+@enduml
