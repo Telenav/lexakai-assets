@@ -1,20 +1,20 @@
 <a href="https://www.lexakai.org">
-<img src="https://www.lexakai.org/images/logos/web-32.png" srcset="https://www.lexakai.org/images/logos/web-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/logos/web-32.png" srcset="https://telenav.github.io/telenav-assets/images/logos/web-32-2x.png 2x"/>
 </a>
 &nbsp;
 <a href="https://twitter.com/openlexakai">
-<img src="https://www.lexakai.org/images/twitter-32.png" srcset="https://www.lexakai.org/images/twitter-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/twitter-32.png" srcset="https://telenav.github.io/telenav-assets/images/twitter-32-2x.png 2x"/>
 </a>
 &nbsp;
 <a href="https://lexakai.zulipchat.com">
-<img src="https://www.lexakai.org/images/zulip-32.png" srcset="https://www.lexakai.org/images/zulip-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/zulip-32.png" srcset="https://telenav.github.io/telenav-assets/images/zulip-32-2x.png 2x"/>
 </a>
 
 <p></p>
 
-<img src="https://www.lexakai.org/images/lexakai-background-1024.png" srcset="https://www.lexakai.org/images/lexakai-background-1024-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/lexakai-background-1024.png" srcset="https://telenav.github.io/telenav-assets/images/lexakai-background-1024-2x.png 2x"/>
 
-# lexakai-data &nbsp; <img src="https://www.lexakai.org/images/lexakai-64.png" srcset="https://www.lexakai.org/images/lexakai-64-2x.png 2x"/>
+# lexakai-data &nbsp; <img src="https://telenav.github.io/telenav-assets/images/lexakai-64.png" srcset="https://telenav.github.io/telenav-assets/images/lexakai-64-2x.png 2x"/>
 
 This project contains binary data and applications used by Lexakai.
 

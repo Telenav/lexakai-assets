@@ -13,9 +13,9 @@
 
 <p></p>
 
-<img src="https://www.lexakai.org/images/lexakai-background-1024.png" srcset="https://www.lexakai.org/images/lexakai-background-1024-2x.png 2x"/>  
+<img src="https://telenav.github.io/telenav-assets/images/lexakai-background-1024.png" srcset="https://telenav.github.io/telenav-assets/images/lexakai-background-1024-2x.png 2x"/>  
 
-# Lexakai &nbsp; <img src="https://www.lexakai.org/images/lexakai-64.png" srcset="https://www.lexakai.org/images/lexakai-64-2x.png 2x"/>
+# Lexakai &nbsp; <img src="https://telenav.github.io/telenav-assets/images/lexakai-64.png" srcset="https://telenav.github.io/telenav-assets/images/lexakai-64-2x.png 2x"/>
 
 Lexakai is a command line tool used to create UML diagrams and markdown documentation indexes.
 
@@ -55,17 +55,17 @@ Lexakai creates and updates UML diagrams and *README.md* documentation indexes f
 
 The screenshots below are from the [kivakit](https://www.kivakit.org) project (first two images) and the [kivakit-application](https://github.com/Telenav/kivakit/tree/master/kivakit-application) module (second two images). The red boxes show the sections of the markdown that Lexakai generated. Lexakai also generates the UML diagrams and dependency diagrams that are linked to from these sections.
 
-<a href="https://www.lexakai.org/images/kivakit-1.png">
-<img title="kivakit (page 1)" src="https://www.lexakai.org/images/kivakit-1.png" width="100" height="238" alt="kivakit (page 1)">
+<a href="https://telenav.github.io/telenav-assets/images/kivakit-1.png">
+<img title="kivakit (page 1)" src="https://telenav.github.io/telenav-assets/images/kivakit-1.png" width="100" height="238" alt="kivakit (page 1)">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a title="kivakit (page 2)" href="https://www.lexakai.org/images/kivakit-2.png">
-<img src="https://www.lexakai.org/images/kivakit-2.png" width="100" height="238" alt="kivakit (page 2)">
+<a title="kivakit (page 2)" href="https://telenav.github.io/telenav-assets/images/kivakit-2.png">
+<img src="https://telenav.github.io/telenav-assets/images/kivakit-2.png" width="100" height="238" alt="kivakit (page 2)">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a title="kivakit-application (page 1)" href="https://www.lexakai.org/images/kivakit-application-1.png">
-<img src="https://www.lexakai.org/images/kivakit-application-1.png" width="100" height="238" alt="kivakit-application (page 1)">
+<a title="kivakit-application (page 1)" href="https://telenav.github.io/telenav-assets/images/kivakit-application-1.png">
+<img src="https://telenav.github.io/telenav-assets/images/kivakit-application-1.png" width="100" height="238" alt="kivakit-application (page 1)">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a title="kivakit-application (page 2)" href="https://www.lexakai.org/images/kivakit-application-2.png">
-<img src="https://www.lexakai.org/images/kivakit-application-2.png" width="100" height="238" alt="kivakit-application (page 2)">
+<a title="kivakit-application (page 2)" href="https://telenav.github.io/telenav-assets/images/kivakit-application-2.png">
+<img src="https://telenav.github.io/telenav-assets/images/kivakit-application-2.png" width="100" height="238" alt="kivakit-application (page 2)">
 </a>
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
