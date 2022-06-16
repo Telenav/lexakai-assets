@@ -2,4 +2,7 @@
 *.iml
 **/.DS_Store
 .idea/**
+.class
+target/
+${env.LEXAKAI_ASSETS_HOME}/
 
