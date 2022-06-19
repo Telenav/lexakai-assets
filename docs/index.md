@@ -53,7 +53,7 @@ Lexakai creates and updates UML diagrams and *README.md* documentation indexes f
 
 ### Screenshots <a name = "screenshots"></a>
 
-The screenshots below are from the [kivakit](https://www.kivakit.org) project (first two images) and the [kivakit-application](https://github.com/Telenav/kivakit/tree/master/kivakit-application) module (second two images). The red boxes show the sections of the markdown that Lexakai generated. Lexakai also generates the UML diagrams and dependency diagrams that are linked to from these sections.
+The screenshots below are from the [kivakit](https://www.kivakit.org) project (first two images) and the [kivakit-application](https://github.com/Telenav/kivakit/tree/develop/kivakit-application) module (second two images). The red boxes show the sections of the markdown that Lexakai generated. Lexakai also generates the UML diagrams and dependency diagrams that are linked to from these sections.
 
 <a href="https://www.lexakai.org/images/kivakit-1.png">
 <img title="kivakit (page 1)" src="https://www.lexakai.org/images/kivakit-1.png" width="100" height="238" alt="kivakit (page 1)">
