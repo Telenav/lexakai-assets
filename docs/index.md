@@ -58,15 +58,12 @@ The screenshots below are from the [kivakit](https://www.kivakit.org) project (f
 <a href="images/kivakit-1.png">
 <img title="kivakit (page 1)" src="images/kivakit-1.png" width="100" height="238" alt="kivakit (page 1)">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
-
 <a title="kivakit (page 2)" href="images/kivakit-2.png">
 <img src="images/kivakit-2.png" width="100" height="238" alt="kivakit (page 2)">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
-
 <a title="kivakit-application (page 1)" href="images/kivakit-application-1.png">
 <img src="images/kivakit-application-1.png" width="100" height="238" alt="kivakit-application (page 1)">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
-
 <a title="kivakit-application (page 2)" href="images/kivakit-application-2.png">
 <img src="images/kivakit-application-2.png" width="100" height="238" alt="kivakit-application (page 2)">
 </a>
