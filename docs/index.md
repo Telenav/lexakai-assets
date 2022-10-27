@@ -101,20 +101,16 @@ The screenshots below are from the [kivakit](https://www.kivakit.org) project (f
 
 1. Install Java 11 or later
 
-
 2. Install [GraphViz](https://plantuml.com/graphviz-dot) for generating SVG files
 
-3. Download [**Lexakai 0.9.8-beta**](https://repo1.maven.org/maven2/com/telenav/lexakai/lexakai/0.9.8-beta/lexakai-0.9.8-beta.jar)
+3. Download [**Lexakai 1.0.16**](https://repo1.maven.org/maven2/com/telenav/lexakai/lexakai-standalone/1.0.16/lexakai-standalone-1.0.16.jar)
    &nbsp; <img src="https://telenav.github.io/telenav-assets/images/icons/down-arrow-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons/down-arrow-32-2x.png 2x"/>
-
 
 4. Run Lexakai from your project root with:
 
-       java -jar lexakai-[version].jar .
-
+       java -jar lexakai-standalone-[version].jar .
 
 5. Configure Lexakai for your project as described in the next section
-
 
 6. See [Readme Generation and Updating](#readme-generation-and-updating) to begin creating or updating README.md indexes in your projects
 
@@ -251,7 +247,7 @@ To create a set of one or more custom diagrams for a project, annotations can be
     <dependency>
         <groupId>com.telenav.lexakai</groupId>
         <artifactId>lexakai-annotations</artifactId>
-        <version>0.9.3</version>
+        <version>1.0.10</version>
     </dependency>
 
 A class, annotation, enum or interface annotated with *@UmlClassDiagram(diagram = [marker-interface]
