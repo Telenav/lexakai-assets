@@ -1,0 +1,37 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.lexakai.associations"
+    
+    interface Comparable
+    
+    enum UmlAssociation.AssociationType
+    {
+        AGGREGATION
+        COMPOSITION
+        RELATION
+    }
+    
+    Comparable <|-- UmlAssociation
+    class UmlAssociation
+    {
+        --
+        +AssociationType type()
+        +String uml()
+        +UmlAssociation umlAssociation(TypeDeclaration<?> referrer, AssociationType, Type referent, String from, String to, String label)
+        +UmlAssociation umlAssociation(TypeDeclaration<?> referrer, AssociationType, String referent, String from, String to, String label)
+    }
+    
+    Comparable <|-- UmlInheritance
+    class UmlInheritance
+    {
+        --(constructors)--
+        +UmlInheritance(String, String)
+        --
+        +String uml()
+    }
+    
+@enduml
+
