@@ -1,0 +1,33 @@
+--class-path
+'/private/tmp/cactus-clone-la0jbjj1-u9a7cf/lexakai/target/classes:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/lexakai/bill-of-materials/target/classes:/tmp/maven-repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/tmp/maven-repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/tmp/maven-repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/tmp/maven-repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/tmp/maven-repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/tmp/maven-repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/tmp/maven-repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/tmp/maven-repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar'
+--module-path
+'/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-mixins/target/kivakit-mixins-1.8.2.jar:/tmp/maven-repository/com/telenav/lexakai/annotations/lexakai-annotations/1.0.9/lexakai-annotations-1.0.9.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/lexakai/lexakai-standalone/target/lexakai-standalone-1.0.18.jar:/tmp/maven-repository/com/github/javaparser/javaparser-symbol-solver-core/3.24.4/javaparser-symbol-solver-core-3.24.4.jar:/tmp/maven-repository/com/mastfrog/util-preconditions/2.9.1/util-preconditions-2.9.1.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-component/target/kivakit-component-1.8.2.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-collections/target/kivakit-collections-1.8.2.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-annotations/target/kivakit-annotations-1.8.2.jar:/tmp/maven-repository/com/github/javaparser/javaparser-core/3.24.4/javaparser-core-3.24.4.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-validation/target/kivakit-validation-1.8.2.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-serialization/properties/target/kivakit-serialization-properties-1.8.2.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-application/target/kivakit-application-1.8.2.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-interfaces/target/kivakit-interfaces-1.8.2.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-settings/target/kivakit-settings-1.8.2.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-serialization/gson/target/kivakit-serialization-gson-1.8.2.jar:/tmp/maven-repository/com/telenav/cactus/metadata/cactus-metadata/1.0.2/cactus-metadata-1.0.2.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/lexakai/lexakai/target/lexakai-1.0.18.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-commandline/target/kivakit-commandline-1.8.2.jar:/tmp/maven-repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-core/target/kivakit-core-1.8.2.jar:/tmp/maven-repository/com/mastfrog/function/2.9.1/function-2.9.1.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-resource/target/kivakit-resource-1.8.2.jar:/tmp/maven-repository/com/telenav/cactus/cactus-maven-model/1.5.47/cactus-maven-model-1.5.47.jar:/tmp/maven-repository/com/telenav/cactus/cactus-maven-xml/1.5.47/cactus-maven-xml-1.5.47.jar:/tmp/maven-repository/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/kivakit/kivakit-conversion/target/kivakit-conversion-1.8.2.jar'
+--patch-module
+lexakai='/private/tmp/cactus-clone-la0jbjj1-u9a7cf/lexakai/lexakai/src/main/java:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/lexakai/lexakai/target/generated-sources/annotations'
+--patch-module
+lexakai.standalone='/private/tmp/cactus-clone-la0jbjj1-u9a7cf/lexakai/lexakai-standalone/src/main/java:/private/tmp/cactus-clone-la0jbjj1-u9a7cf/lexakai/lexakai-standalone/target/generated-sources/annotations'
+-encoding
+'UTF-8'
+-public
+-source
+'17'
+--module-source-path
+'/private/tmp/cactus-clone-la0jbjj1-u9a7cf/lexakai/target/site/apidocs/src'
+-notimestamp
+-author
+-bottom
+'Copyright &#169; 2011&#x2013;2022 <a href="https://www.telenav.com">Telenav</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/private/tmp/cactus-clone-la0jbjj1-u9a7cf/lexakai/target/site/apidocs'
+-docencoding
+'UTF-8'
+-Xdoclint:none
+-doctitle
+'lexakai-parent 1.0.18 API'
+-nohelp
+-use
+-version
+-windowtitle
+'lexakai-parent 1.0.18 API'
