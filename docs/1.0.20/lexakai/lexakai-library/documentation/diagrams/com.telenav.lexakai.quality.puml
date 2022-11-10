@@ -1,0 +1,38 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.lexakai.quality"
+    
+    interface Comparable
+    
+    Comparable <|-- CodeQualityAnalysis
+    class CodeQualityAnalysis
+    {
+        --(constructors)--
+        +CodeQualityAnalysis(LexakaiProject)
+        --
+        +String details()
+        +LexakaiProject project()
+        +String totalTypes()
+        --(collection)--
+        +void add(TypeDeclaration<?>)
+        +void addToVariableMap(VariableMap<String> variables)
+        +StringList summary()
+        +StringList warnings()
+        --(distance)--
+        +String projectQualityMeter(Folder)
+        --(math)--
+        +Percent qualityEstimate()
+    }
+    
+    class CodeQualityOfType
+    {
+        --
+        +String problems()
+        +CodeQualityOfType quality(String typeName, NodeWithAnnotations<?>)
+    }
+    
+@enduml
+

@@ -1,0 +1,13 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.lexakai.application"
+    
+    class Unused
+    {
+    }
+    
+@enduml
+
